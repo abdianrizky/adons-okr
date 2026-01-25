@@ -464,7 +464,7 @@ class ClickUpClient:
                 view_name = view.get('name', '').lower()
                 if 'sprint' in view_name and 'report' in view_name:
                     view_id = view.get('id')
-                    view_url = f"https://app.clickup.com/{workspace_id}/v/{view_id}"
+                    view_url = f"https://app.clickup.com/{workspace_id}/v/db/{view_id}"
 
                     # Cache the result
                     if use_cache:
