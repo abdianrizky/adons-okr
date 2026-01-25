@@ -1,21 +1,28 @@
 # Sprint Analytics Report - H2 2025
 ## SMB Payment Team
 
-*Generated: 2026-01-26 00:57:35*
+*Generated: 2026-01-26 01:22:54*
 
 ---
+
 
 ## Executive Summary
 
 **Total Sprints Analyzed:** 12
+
 **Total Points Delivered:** 156 / 163
+
 **Average Delivery Rate:** 95.9%
+
 **Average Velocity:** 13.0 points/sprint
+
 
 ### Performance Highlights
 
 **Best Sprint:** Sprint 43 (Payment) (100.0% delivery rate)
+
 **Worst Sprint:** Sprint 2 (RnG) (76.9% delivery rate)
+
 
 ### Key Insights
 
@@ -23,7 +30,9 @@
 - Very **consistent velocity** (σ = 2.45 points)
 - **Strong performance**: 9 out of 12 sprints achieved 100%+ delivery rate
 
+
 ## Visualizations
+
 
 ### Sprint Velocity
 
@@ -31,17 +40,20 @@
 
 *Comparison of Points Committed, Delivered, and Carried Over across sprints*
 
+
 ### Burndown Trend
 
 ![Burndown Trend](sprint_burndown_chart.png)
 
 *Points remaining (burndown) over time*
 
+
 ### Delivery Rate
 
 ![Delivery Rate](sprint_delivery_rate_chart.png)
 
 *Percentage of work delivered per sprint (target: 100%)*
+
 
 ## Overall Statistics
 
@@ -54,13 +66,18 @@
 | Total Carryover Out | 0 points |
 | Velocity Consistency (σ) | 2.45 points |
 
+
 ## Sprint-by-Sprint Breakdown
 
+
 ### [Sprint 43 (Payment)](https://app.clickup.com/3708016/v/li/901609751709)
+
 **Jul 8-22, 2025**
+
 📊 **[Sprint Reporting Dashboard](https://app.clickup.com/3708016/v/3h53g-249216)**
 
 🌟 **Perfect Sprint!**
+
 
 | Metric | Value |
 |--------|-------|
@@ -74,19 +91,25 @@
 | 🎯 **Delivery Rate** | **100.0%** |
 | 📋 Tasks Completed | 3 / 3 |
 
+
 **Completed Tasks:**
 
 - [[Pivot][BE] Pivot Callback](https://app.clickup.com/t/86czgvnrn) - 5 pts
 - [[Pivot][BE] Request 3DS](https://app.clickup.com/t/86czgvnr5) - 3 pts
 - [[Pivot][BE] Validate Payment](https://app.clickup.com/t/86czgvnp8) - 3 pts
 
+
 ---
 
+
 ### [Sprint 44 (Payment)](https://app.clickup.com/3708016/v/li/901610062693)
+
 **Jul 22 - Aug 04, 2025**
+
 📊 **[Sprint Reporting Dashboard](https://app.clickup.com/3708016/v/3h53g-252156)**
 
 👍 **Good Performance**
+
 
 | Metric | Value |
 |--------|-------|
@@ -100,6 +123,7 @@
 | 🎯 **Delivery Rate** | **81.2%** |
 | 📋 Tasks Completed | 7 / 8 |
 
+
 **Completed Tasks:**
 
 - [Phase 3: High Risk (Core Payment Operations)](https://app.clickup.com/t/86cztvegc) - 0 pts
@@ -110,14 +134,20 @@
 - [[PaperXB] Multi Currency Invoice Payment Disbursement PDF](https://app.clickup.com/t/86cznprpu) - 5 pts
 - [[Instant Payment] [BE] Alert and Monitoring](https://app.clickup.com/t/86cznmmrn) - 3 pts
 
+
 ---
 
+
 ### [Sprint 45 (Payment)](https://app.clickup.com/3708016/v/li/901610251697)
+
 **Aug 5-19, 2025**
+
 📊 **[Sprint Reporting Dashboard](https://app.clickup.com/3708016/v/3h53g-253476)**
+
 *Tanggal Merah: 🔴 Aug 17 (Hari Kemerdekaan Indonesia)*
 
 🌟 **Perfect Sprint!**
+
 
 | Metric | Value |
 |--------|-------|
@@ -131,19 +161,25 @@
 | 🎯 **Delivery Rate** | **100.0%** |
 | 📋 Tasks Completed | 3 / 3 |
 
+
 **Completed Tasks:**
 
 - [[Pivot] Use External ID as Reference ID](https://app.clickup.com/t/86czupph7) - 3 pts
 - [[PaperXB] Proof of Payment PDF for Multi Currencies XB Transactions](https://app.clickup.com/t/86czuppd4) - 5 pts
 - [[BE] Flagging to include KYB users for BCA VA](https://app.clickup.com/t/86czukrtb) - 2 pts
 
+
 ---
 
+
 ### [Sprint 46 (Payment)](https://app.clickup.com/3708016/v/li/901610523078)
+
 **Aug 18 - Sep 01, 2025**
+
 📊 **[Sprint Reporting Dashboard](https://app.clickup.com/3708016/v/3h53g-257436)**
 
 🌟 **Perfect Sprint!**
+
 
 | Metric | Value |
 |--------|-------|
@@ -157,6 +193,7 @@
 | 🎯 **Delivery Rate** | **100.0%** |
 | 📋 Tasks Completed | 5 / 5 |
 
+
 **Completed Tasks:**
 
 - [[Revamp Fee] [BE] Counter Data Injection](https://app.clickup.com/t/86d00q44f) - 5 pts
@@ -165,13 +202,18 @@
 - [[Revamp Fee] [BE] Dynamic VA Fee Counter](https://app.clickup.com/t/86czwh6zg) - 3 pts
 - [[PaperXB] Multi Currency Invoice Payment Notification WhatsApp Message](https://app.clickup.com/t/86cznprb8) - 3 pts
 
+
 ---
 
+
 ### [Sprint 47 (Payment)](https://app.clickup.com/3708016/v/li/901610830843)
+
 **Sep 1-14, 2025**
+
 📊 **[Sprint Reporting Dashboard](https://app.clickup.com/3708016/v/3h53g-260056)**
 
 🌟 **Perfect Sprint!**
+
 
 | Metric | Value |
 |--------|-------|
@@ -185,6 +227,7 @@
 | 🎯 **Delivery Rate** | **100.0%** |
 | 📋 Tasks Completed | 4 / 4 |
 
+
 **Completed Tasks:**
 
 - [[PaperXB] Mapping Currency with Benef Type for Alipay - CNY](https://app.clickup.com/t/86d0581na) - 2 pts
@@ -192,14 +235,20 @@
 - [[PaperXB] Alipay - Adjust Create Remitter Endpoint](https://app.clickup.com/t/86czz4pkw) - 3 pts
 - [[PaperXB] Alipay - Make Prefill Support Individual Remitter](https://app.clickup.com/t/86czz4pe5) - 2 pts
 
+
 ---
 
+
 ### [Sprint 48 (Payment)](https://app.clickup.com/3708016/v/li/901611066339)
+
 **Sep 15-29, 2025**
+
 📊 **[Sprint Reporting Dashboard](https://app.clickup.com/3708016/v/3h53g-261776)**
+
 *Tanggal Merah: 🔴 Sep 16 (Maulid Nabi Muhammad SAW)*
 
 ✅ **Excellent Performance**
+
 
 | Metric | Value |
 |--------|-------|
@@ -213,6 +262,7 @@
 | 🎯 **Delivery Rate** | **92.3%** |
 | 📋 Tasks Completed | 5 / 6 |
 
+
 **Completed Tasks:**
 
 - [Adjust DPR creation to include entry point](https://app.clickup.com/t/86d0dpc8v) - 1 pts
@@ -221,13 +271,18 @@
 - [[Bank Validation] Caching Solution](https://app.clickup.com/t/86d094fut) - 3 pts
 - [[Promo Engine] [BE] Entry Point to Cater Accurate & First Accurate Parameter](https://app.clickup.com/t/86d094ffy) - 3 pts
 
+
 ---
 
+
 ### [Sprint 49 (Payment)](https://app.clickup.com/3708016/v/li/901611303982)
+
 **Sep 29 - Oct 13, 2025**
+
 📊 **[Sprint Reporting Dashboard](https://app.clickup.com/3708016/v/3h53g-264736)**
 
 🌟 **Perfect Sprint!**
+
 
 | Metric | Value |
 |--------|-------|
@@ -241,6 +296,7 @@
 | 🎯 **Delivery Rate** | **100.0%** |
 | 📋 Tasks Completed | 8 / 8 |
 
+
 **Completed Tasks:**
 
 - [[BE] Update Whitelisted Company for MID Routing & Custom Fee 1.3%](https://app.clickup.com/t/86d0gbvbn) - 1 pts
@@ -252,13 +308,18 @@
 - [[Finops] Internal Batch Disburse API](https://app.clickup.com/t/86d0eda42) - 2 pts
 - [[Copywriting] Replace "Disbursement" in Pay In into "Withdrawal"](https://app.clickup.com/t/86d0e6dw8) - 1 pts
 
+
 ---
 
+
 ### [Sprint 50 (Payment)](https://app.clickup.com/3708016/v/li/901611529803)
+
 **Oct 13-27, 2025**
+
 📊 **[Sprint Reporting Dashboard](https://app.clickup.com/3708016/v/3h53g-267836)**
 
 🌟 **Perfect Sprint!**
+
 
 | Metric | Value |
 |--------|-------|
@@ -272,6 +333,7 @@
 | 🎯 **Delivery Rate** | **100.0%** |
 | 📋 Tasks Completed | 6 / 6 |
 
+
 **Completed Tasks:**
 
 - [[Backend] Check backend to backend Validate Promotion When create DPT](https://app.clickup.com/t/86d0kmb0y) - 1 pts
@@ -281,13 +343,18 @@
 - [[Finops] Process Bulk Disbursement + In Progress Callback](https://app.clickup.com/t/86d0edak4) - 3 pts
 - [[Finops] Integrate Pivot Local Disbursements](https://app.clickup.com/t/86d0ed9wr) - 3 pts
 
+
 ---
 
+
 ### [Sprint 1 (RnG)](https://app.clickup.com/3708016/v/li/901611807487)
+
 **Nov 10-24, 2025**
+
 📊 **[Sprint Reporting Dashboard](https://app.clickup.com/3708016/v/3h53g-271756)**
 
 🌟 **Perfect Sprint!**
+
 
 | Metric | Value |
 |--------|-------|
@@ -301,6 +368,7 @@
 | 🎯 **Delivery Rate** | **100.0%** |
 | 📋 Tasks Completed | 5 / 5 |
 
+
 **Completed Tasks:**
 
 - [[Backend] - Alert When Pivot Transaction Threshold is Reached](https://app.clickup.com/t/86d0xxvma) - 2 pts
@@ -309,13 +377,18 @@
 - [[Transaction History][BE] Generated PDF design requirements for payOut](https://app.clickup.com/t/86d0tmnhf) - 5 pts
 - [[PaperXB][BE] China Banks - AA Non-Individual company user IWT do the transactions to my Supplier's China Bank Account](https://app.clickup.com/t/86d0pt8c8) - 3 pts
 
+
 ---
 
+
 ### [Sprint 2 (RnG)](https://app.clickup.com/3708016/v/li/901612239615)
+
 **Nov 24 - Dec 08, 2025**
+
 📊 **[Sprint Reporting Dashboard](https://app.clickup.com/3708016/v/3h53g-276336)**
 
 👍 **Good Performance**
+
 
 | Metric | Value |
 |--------|-------|
@@ -329,6 +402,7 @@
 | 🎯 **Delivery Rate** | **76.9%** |
 | 📋 Tasks Completed | 7 / 8 |
 
+
 **Completed Tasks:**
 
 - [Refund Charged CC](https://app.clickup.com/t/86d1223c8) - 0 pts
@@ -339,13 +413,18 @@
 - [[Multicards Payment] AA System IWT Have Cron Job to Handle Expired DPR in Multiple Card Payment When DPR Status still in Pending Status After 72 Hours (Configurable) Then cancel All DPT Auth and Set DPR Status to Expired](https://app.clickup.com/t/86d0ecxzv) - 0 pts
 - [[Tech/Data][Payment BE] As finops, I want the disbursement requests to various PG SoFs to be automatically processed after approved](https://app.clickup.com/t/86czu65d2) - 2 pts
 
+
 ---
 
+
 ### [Sprint 3 (RnG)](https://app.clickup.com/3708016/v/li/901612467459)
+
 **Dec 8-22, 2025**
+
 📊 **[Sprint Reporting Dashboard](https://app.clickup.com/3708016/v/3h53g-278676)**
 
 🌟 **Perfect Sprint!**
+
 
 | Metric | Value |
 |--------|-------|
@@ -359,6 +438,7 @@
 | 🎯 **Delivery Rate** | **100.0%** |
 | 📋 Tasks Completed | 7 / 7 |
 
+
 **Completed Tasks:**
 
 - [[BE]](https://app.clickup.com/t/86d177rkz) - 2 pts
@@ -369,14 +449,20 @@
 - [[PaperXB][BE] Hongkong CNH - AA Non-Individual company user IWT do the transactions to my Supplier's Hongkong Bank Account](https://app.clickup.com/t/86d153z2h) - 1 pts
 - [[Foreign CC][BE] As paper internal user, I want to see incoming foreign CC registration requests from paper users](https://app.clickup.com/t/86d131urr) - 3 pts
 
+
 ---
 
+
 ### [Sprint 4 (RnG)](https://app.clickup.com/3708016/v/li/901612677684)
+
 **Dec 22 - Jan 05, 2025**
+
 📊 **[Sprint Reporting Dashboard](https://app.clickup.com/3708016/v/3h53g-281456)**
+
 *Tanggal Merah: 🔴 Dec 25 (Hari Raya Natal), 🔴 Dec 26 (Cuti Bersama Natal)*
 
 🌟 **Perfect Sprint!**
+
 
 | Metric | Value |
 |--------|-------|
@@ -390,6 +476,7 @@
 | 🎯 **Delivery Rate** | **100.0%** |
 | 📋 Tasks Completed | 6 / 6 |
 
+
 **Completed Tasks:**
 
 - [[PaperXB] Opening new corridor batch Dec](https://app.clickup.com/t/86d1dh984) - 2 pts
@@ -399,22 +486,29 @@
 - [[PaperXB] Save Pivot Rate daily in table](https://app.clickup.com/t/86d180r43) - 2 pts
 - [[BE] AA Ops IWT be notified when there is a refund from Pivot](https://app.clickup.com/t/86d17va1v) - 3 pts
 
----
 
 ---
+
+
+---
+
 
 ## About This Report
 
 This report was automatically generated by the Sprint Analytics system.
 
+
 **Report Contents:**
+
 - Executive summary with key performance indicators
 - Visual charts for velocity, burndown, and delivery rate
 - Detailed sprint-by-sprint breakdown with task lists
 - Indonesian public holiday indicators
 - Automated insights and recommendations
 
+
 **Files Generated:**
+
 - `sprint_summary.md` - This comprehensive report
 - `sprint_metrics.json` - Complete data in JSON format
 - `sprint_metrics.csv` - Summary data for Excel/Sheets
@@ -422,7 +516,9 @@ This report was automatically generated by the Sprint Analytics system.
 - `sprint_burndown_chart.png` - Burndown trend chart
 - `sprint_delivery_rate_chart.png` - Delivery rate chart
 
+
 **Legend:**
+
 - 🌟 Perfect Sprint (≥100% delivery)
 - ✅ Excellent Performance (90-99%)
 - 👍 Good Performance (75-89%)

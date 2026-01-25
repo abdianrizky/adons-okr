@@ -243,14 +243,19 @@ class ReportGenerator:
         lines.append("")
         lines.append("---")
         lines.append("")
+        lines.append("")
 
         # Executive Summary
         lines.append("## Executive Summary")
         lines.append("")
         lines.append(f"**Total Sprints Analyzed:** {overall_stats['total_sprints']}")
+        lines.append("")
         lines.append(f"**Total Points Delivered:** {overall_stats['total_delivered']} / {overall_stats['total_work']}")
+        lines.append("")
         lines.append(f"**Average Delivery Rate:** {overall_stats['avg_delivery_rate']:.1f}%")
+        lines.append("")
         lines.append(f"**Average Velocity:** {overall_stats['avg_points_per_sprint']:.1f} points/sprint")
+        lines.append("")
         lines.append("")
 
         # Best/Worst Performance
@@ -258,8 +263,10 @@ class ReportGenerator:
         lines.append("")
         lines.append(f"**Best Sprint:** {overall_stats['best_sprint']['name']} "
                     f"({overall_stats['best_sprint']['delivery_rate']:.1f}% delivery rate)")
+        lines.append("")
         lines.append(f"**Worst Sprint:** {overall_stats['worst_sprint']['name']} "
                     f"({overall_stats['worst_sprint']['delivery_rate']:.1f}% delivery rate)")
+        lines.append("")
         lines.append("")
 
         # Insights
@@ -270,9 +277,11 @@ class ReportGenerator:
             for insight in insights:
                 lines.append(f"- {insight}")
             lines.append("")
+            lines.append("")
 
         # Visualizations
         lines.append("## Visualizations")
+        lines.append("")
         lines.append("")
         lines.append("### Sprint Velocity")
         lines.append("")
@@ -280,17 +289,20 @@ class ReportGenerator:
         lines.append("")
         lines.append("*Comparison of Points Committed, Delivered, and Carried Over across sprints*")
         lines.append("")
+        lines.append("")
         lines.append("### Burndown Trend")
         lines.append("")
         lines.append("![Burndown Trend](sprint_burndown_chart.png)")
         lines.append("")
         lines.append("*Points remaining (burndown) over time*")
         lines.append("")
+        lines.append("")
         lines.append("### Delivery Rate")
         lines.append("")
         lines.append("![Delivery Rate](sprint_delivery_rate_chart.png)")
         lines.append("")
         lines.append("*Percentage of work delivered per sprint (target: 100%)*")
+        lines.append("")
         lines.append("")
 
         # Overall Statistics Table
@@ -305,9 +317,11 @@ class ReportGenerator:
         lines.append(f"| Total Carryover Out | {overall_stats['total_carryover_out']} points |")
         lines.append(f"| Velocity Consistency (σ) | {overall_stats['velocity_std_dev']:.2f} points |")
         lines.append("")
+        lines.append("")
 
         # Sprint-by-Sprint Breakdown
         lines.append("## Sprint-by-Sprint Breakdown")
+        lines.append("")
         lines.append("")
 
         for m in metrics_list:
@@ -320,18 +334,20 @@ class ReportGenerator:
 
             # Sprint header with date range (no week number)
             lines.append(f"### [{m.sprint_name}]({m.url})")
+            lines.append("")
             lines.append(f"**{date_range}**")
+            lines.append("")
 
             # Add Sprint Reporting link if available
             if m.sprint_reporting_url:
                 lines.append(f"📊 **[Sprint Reporting Dashboard]({m.sprint_reporting_url})**")
+                lines.append("")
 
             # Add holiday information if exists
             if holidays:
                 holiday_text = ", ".join([f"🔴 {h['formatted']} ({h['name']})" for h in holidays])
                 lines.append(f"*Tanggal Merah: {holiday_text}*")
-
-            lines.append("")
+                lines.append("")
 
             # Performance badge
             if m.delivery_rate >= 100:
@@ -347,6 +363,7 @@ class ReportGenerator:
 
             lines.append(badge)
             lines.append("")
+            lines.append("")
 
             # Metrics table
             lines.append("| Metric | Value |")
@@ -361,6 +378,7 @@ class ReportGenerator:
             lines.append(f"| 🎯 **Delivery Rate** | **{m.delivery_rate:.1f}%** |")
             lines.append(f"| 📋 Tasks Completed | {m.completed_tasks_count} / {m.total_tasks} |")
             lines.append("")
+            lines.append("")
 
             # Completed tasks
             if m.completed_tasks:
@@ -368,6 +386,7 @@ class ReportGenerator:
                 lines.append("")
                 for task in m.completed_tasks:
                     lines.append(f"- [{task.name}]({task.url}) - {task.points} pts")
+                lines.append("")
                 lines.append("")
 
             # Carryover in
@@ -377,6 +396,7 @@ class ReportGenerator:
                 for task in m.carryover_in_tasks:
                     lines.append(f"- [{task['name']}]({task['url']}) - {task['points']} pts "
                                f"(from Sprint {task['from_sprint']})")
+                lines.append("")
                 lines.append("")
 
             # Carryover out
@@ -388,25 +408,32 @@ class ReportGenerator:
                     lines.append(f"- [{task['name']}]({task['url']}) - {task['points']} pts "
                                f"(to Sprint {next_sprint})")
                 lines.append("")
+                lines.append("")
 
             lines.append("---")
+            lines.append("")
             lines.append("")
 
         # Footer
         lines.append("---")
         lines.append("")
+        lines.append("")
         lines.append("## About This Report")
         lines.append("")
         lines.append("This report was automatically generated by the Sprint Analytics system.")
         lines.append("")
+        lines.append("")
         lines.append("**Report Contents:**")
+        lines.append("")
         lines.append("- Executive summary with key performance indicators")
         lines.append("- Visual charts for velocity, burndown, and delivery rate")
         lines.append("- Detailed sprint-by-sprint breakdown with task lists")
         lines.append("- Indonesian public holiday indicators")
         lines.append("- Automated insights and recommendations")
         lines.append("")
+        lines.append("")
         lines.append("**Files Generated:**")
+        lines.append("")
         lines.append("- `sprint_summary.md` - This comprehensive report")
         lines.append("- `sprint_metrics.json` - Complete data in JSON format")
         lines.append("- `sprint_metrics.csv` - Summary data for Excel/Sheets")
@@ -414,7 +441,9 @@ class ReportGenerator:
         lines.append("- `sprint_burndown_chart.png` - Burndown trend chart")
         lines.append("- `sprint_delivery_rate_chart.png` - Delivery rate chart")
         lines.append("")
+        lines.append("")
         lines.append("**Legend:**")
+        lines.append("")
         lines.append("- 🌟 Perfect Sprint (≥100% delivery)")
         lines.append("- ✅ Excellent Performance (90-99%)")
         lines.append("- 👍 Good Performance (75-89%)")
