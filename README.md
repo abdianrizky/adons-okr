@@ -2,6 +2,13 @@
 
 This repository contains tools and reports for tracking OKRs and sprint performance metrics.
 
+## 📑 Quick Links to Key Reports
+
+- **[📈 View Latest Sprint Summary Report](./sprint-analytics/output/sprint_summary.md)**
+- **[🔍 View SonarQube Code Analysis Report](./sonarqube-analytics/reports/README.md)**
+
+---
+
 ## 📊 Sprint Analytics
 
 Automated sprint metrics analysis and reporting for Paper.id engineering teams.
@@ -102,7 +109,7 @@ python3 gather_sprint_metrics.py --help
 
 Comprehensive code quality and coverage tracking for Paper.id backend projects.
 
-**[📋 View SonarQube Analytics Documentation](./sonarqube-analytics/README.md)**
+**[🔍 View SonarQube Code Analysis Report](./sonarqube-analytics/reports/README.md)**
 
 ### Quick Stats
 
