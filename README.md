@@ -7,7 +7,7 @@ This repository contains tools and reports for tracking OKRs and sprint performa
 - **[📈 View Latest Sprint Summary Report](./sprint-analytics/output/sprint_summary.md)**
 - **[🔍 View SonarQube Code Analysis Report](./sonarqube-analytics/reports/README.md)**
 - **[⏱️ View MTTR Performance Report H2 2025](./MTTR/README.md)**
-- **[🎯 View Personal OKR Report (adon-paper, 2025-06-23 to 2026-01-01)](./omniscient/reports/adon-paper/2025_06_23_to_2026_01_01/okr_report.md)**
+- **[🎯 View Omniscient Summary Report (adon-paper, 2025-06-23 to 2026-01-01)](./Omniscient/reports/adon-paper/2025_06_23_to_2026_01_01/okr_report.md)**
 
 ---
 
@@ -203,7 +203,7 @@ MTTR/
 
 Comprehensive PR quality tracking and OKR reporting from the Omniscient database.
 
-**[🎯 View Personal OKR Report (adon-paper)](./omniscient/reports/adon-paper/2025_06_23_to_2026_01_01/okr_report.md)**
+**[🎯 View Personal OKR Report (adon-paper)](./Omniscient/reports/adon-paper/2025_06_23_to_2026_01_01/okr_report.md)**
 
 ### Quick Stats (adon-paper, 2025-06-23 to 2026-01-01)
 
@@ -222,9 +222,9 @@ Comprehensive PR quality tracking and OKR reporting from the Omniscient database
 
 ### Available Reports & Charts
 
-- **[Personal OKR Report (adon-paper)](./omniscient/reports/adon-paper/2025_06_23_to_2026_01_01/okr_report.md)** - Comprehensive PR quality analysis
-- **[Metrics JSON](./omniscient/output/adon-paper/2025_06_23_to_2026_01_01/okr_metrics.json)** - Complete structured data
-- **[PR Data CSV](./omniscient/output/adon-paper/2025_06_23_to_2026_01_01/pr_data.csv)** - Exportable PR records (205 PRs)
+- **[Personal OKR Report (adon-paper)](./Omniscient/reports/adon-paper/2025_06_23_to_2026_01_01/okr_report.md)** - Comprehensive PR quality analysis
+- **[Metrics JSON](./Omniscient/output/adon-paper/2025_06_23_to_2026_01_01/okr_metrics.json)** - Complete structured data
+- **[PR Data CSV](./Omniscient/output/adon-paper/2025_06_23_to_2026_01_01/pr_data.csv)** - Exportable PR records (205 PRs)
 - **Quality Trend Chart** - Weekly PR quality trends with volume
 - **Score Distribution Chart** - Overall score histogram with mean/median
 - **Category Heatmap** - Average scores across quality categories (matches dashboard!)
@@ -283,8 +283,8 @@ make help
 - [SonarQube Code Analysis Report](./sonarqube-analytics/reports/README.md)
 - [MTTR Performance Report H2 2025](./MTTR/README.md)
 - [MTTR Metrics CSV](./MTTR/mttr_metrics.csv)
-- [Omniscient OKR Analytics](./omniscient/README.md)
-- [Personal OKR Report (adon-paper, 2025-06-23 to 2026-01-01)](./omniscient/reports/adon-paper/2025_06_23_to_2026_01_01/okr_report.md)
+- [Omniscient OKR Analytics](./Omniscient/README.md)
+- [Personal OKR Report (adon-paper, 2025-06-23 to 2026-01-01)](./Omniscient/reports/adon-paper/2025_06_23_to_2026_01_01/okr_report.md)
 - [ClickUp Workspace](https://app.clickup.com/3708016/)
 - [SonarQube Server](https://sonar.infra.paper.id)
 - [Bug Monitoring Dashboard](https://paperspark.paper.id/dashboard/3541-bug-issue-monitoring-dwh-ver)
