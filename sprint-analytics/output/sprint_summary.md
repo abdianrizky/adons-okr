@@ -1,7 +1,7 @@
 # Sprint Analytics Report - H2 2025
 ## SMB Payment Team
 
-*Generated: 2026-01-26 15:22:32*
+*Generated: 2026-01-26 21:08:29*
 
 ---
 
@@ -105,7 +105,7 @@ gantt
 
 **Jul 8-22, 2025**
 
-📊 **[Sprint Reporting Dashboard](https://app.clickup.com/3708016/v/3h53g-249216)**
+📊 **[Sprint Reporting Dashboard](https://app.clickup.com/3708016/v/db/3h53g-249216)**
 
 🌟 **Perfect Sprint!**
 
@@ -137,7 +137,7 @@ gantt
 
 **Jul 22 - Aug 04, 2025**
 
-📊 **[Sprint Reporting Dashboard](https://app.clickup.com/3708016/v/3h53g-252156)**
+📊 **[Sprint Reporting Dashboard](https://app.clickup.com/3708016/v/db/3h53g-252156)**
 
 👍 **Good Performance**
 
@@ -173,7 +173,7 @@ gantt
 
 **Aug 5-19, 2025**
 
-📊 **[Sprint Reporting Dashboard](https://app.clickup.com/3708016/v/3h53g-253476)**
+📊 **[Sprint Reporting Dashboard](https://app.clickup.com/3708016/v/db/3h53g-253476)**
 
 *Tanggal Merah: 🔴 Aug 17 (Hari Kemerdekaan Indonesia)*
 
@@ -207,7 +207,7 @@ gantt
 
 **Aug 18 - Sep 01, 2025**
 
-📊 **[Sprint Reporting Dashboard](https://app.clickup.com/3708016/v/3h53g-257436)**
+📊 **[Sprint Reporting Dashboard](https://app.clickup.com/3708016/v/db/3h53g-257436)**
 
 🌟 **Perfect Sprint!**
 
@@ -241,7 +241,7 @@ gantt
 
 **Sep 1-14, 2025**
 
-📊 **[Sprint Reporting Dashboard](https://app.clickup.com/3708016/v/3h53g-260056)**
+📊 **[Sprint Reporting Dashboard](https://app.clickup.com/3708016/v/db/3h53g-260056)**
 
 🌟 **Perfect Sprint!**
 
@@ -274,7 +274,7 @@ gantt
 
 **Sep 15-29, 2025**
 
-📊 **[Sprint Reporting Dashboard](https://app.clickup.com/3708016/v/3h53g-261776)**
+📊 **[Sprint Reporting Dashboard](https://app.clickup.com/3708016/v/db/3h53g-261776)**
 
 *Tanggal Merah: 🔴 Sep 16 (Maulid Nabi Muhammad SAW)*
 
@@ -310,7 +310,7 @@ gantt
 
 **Sep 29 - Oct 13, 2025**
 
-📊 **[Sprint Reporting Dashboard](https://app.clickup.com/3708016/v/3h53g-264736)**
+📊 **[Sprint Reporting Dashboard](https://app.clickup.com/3708016/v/db/3h53g-264736)**
 
 🌟 **Perfect Sprint!**
 
@@ -347,7 +347,7 @@ gantt
 
 **Oct 13-27, 2025**
 
-📊 **[Sprint Reporting Dashboard](https://app.clickup.com/3708016/v/3h53g-267836)**
+📊 **[Sprint Reporting Dashboard](https://app.clickup.com/3708016/v/db/3h53g-267836)**
 
 🌟 **Perfect Sprint!**
 
@@ -382,7 +382,7 @@ gantt
 
 **Nov 10-24, 2025**
 
-📊 **[Sprint Reporting Dashboard](https://app.clickup.com/3708016/v/3h53g-271756)**
+📊 **[Sprint Reporting Dashboard](https://app.clickup.com/3708016/v/db/3h53g-271756)**
 
 🌟 **Perfect Sprint!**
 
@@ -416,7 +416,7 @@ gantt
 
 **Nov 24 - Dec 08, 2025**
 
-📊 **[Sprint Reporting Dashboard](https://app.clickup.com/3708016/v/3h53g-276336)**
+📊 **[Sprint Reporting Dashboard](https://app.clickup.com/3708016/v/db/3h53g-276336)**
 
 👍 **Good Performance**
 
@@ -452,7 +452,7 @@ gantt
 
 **Dec 8-22, 2025**
 
-📊 **[Sprint Reporting Dashboard](https://app.clickup.com/3708016/v/3h53g-278676)**
+📊 **[Sprint Reporting Dashboard](https://app.clickup.com/3708016/v/db/3h53g-278676)**
 
 🌟 **Perfect Sprint!**
 
@@ -488,7 +488,7 @@ gantt
 
 **Dec 22 - Jan 05, 2025**
 
-📊 **[Sprint Reporting Dashboard](https://app.clickup.com/3708016/v/3h53g-281456)**
+📊 **[Sprint Reporting Dashboard](https://app.clickup.com/3708016/v/db/3h53g-281456)**
 
 *Tanggal Merah: 🔴 Dec 25 (Hari Raya Natal), 🔴 Dec 26 (Cuti Bersama Natal)*
 
