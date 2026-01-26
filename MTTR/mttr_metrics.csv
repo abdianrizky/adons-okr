@@ -1,0 +1,30 @@
+task_date_week,tech_assignee_name,distinct_values,num_comply_sla,compliance_rate,avg_tech_time_to_resolve_hours,avg_tech_time_to_respond_hours
+June 2 2025,abdian.rizki@paper.id,4,4,100%,3.02,1.2
+June 9 2025,abdian.rizki@paper.id,4,4,100%,9.16,6.19
+June 16 2025,abdian.rizki@paper.id,4,2,50%,30.24,6.32
+June 23 2025,abdian.rizki@paper.id,4,3,75%,23.23,9.31
+June 30 2025,abdian.rizki@paper.id,4,4,100%,27.33,7.92
+July 7 2025,abdian.rizki@paper.id,3,3,100%,26.54,4.82
+July 21 2025,abdian.rizki@paper.id,8,8,100%,10.88,3.21
+July 28 2025,abdian.rizki@paper.id,5,4,80%,23.55,0.54
+August 4 2025,abdian.rizki@paper.id,3,3,100%,27.44,0.47
+August 11 2025,abdian.rizki@paper.id,5,5,100%,18.25,5.23
+August 18 2025,abdian.rizki@paper.id,2,2,100%,4.03,2.84
+August 25 2025,abdian.rizki@paper.id,6,5,83.33%,20.96,2.06
+September 1 2025,abdian.rizki@paper.id,14,14,100%,11.76,1.15
+September 8 2025,abdian.rizki@paper.id,3,3,100%,3.73,0.21
+September 15 2025,abdian.rizki@paper.id,3,3,100%,34.44,0.39
+September 22 2025,abdian.rizki@paper.id,6,5,83.33%,17.94,2.95
+September 29 2025,abdian.rizki@paper.id,5,4,80%,22.87,12.24
+October 6 2025,abdian.rizki@paper.id,3,3,100%,26.99,0.64
+October 13 2025,abdian.rizki@paper.id,2,1,50%,5.44,4.3
+October 20 2025,abdian.rizki@paper.id,3,2,66.67%,31.72,24.92
+October 27 2025,abdian.rizki@paper.id,7,6,85.71%,31.74,22.18
+November 3 2025,abdian.rizki@paper.id,9,8,88.89%,10.33,0.67
+November 10 2025,abdian.rizki@paper.id,4,4,100%,66.58,26.55
+November 17 2025,abdian.rizki@paper.id,6,5,83.33%,12.45,5.25
+November 24 2025,abdian.rizki@paper.id,12,12,100%,33.01,4.83
+December 1 2025,abdian.rizki@paper.id,12,12,100%,13.73,0.55
+December 8 2025,abdian.rizki@paper.id,4,4,100%,5.85,2.5
+December 22 2025,abdian.rizki@paper.id,6,5,83.33%,29.17,0.54
+GRAND TOTAL,abdian.rizki@paper.id,151,138,91.39%,20.31,5.11
