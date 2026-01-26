@@ -1,0 +1,23 @@
+Category,Metric,paper-payment-backend,paper-document,Better_Project,Severity
+Links,SonarQube Dashboard,https://sonar.infra.paper.id/dashboard?id=paper-payment-backend&codeScope=overall,https://sonar.infra.paper.id/dashboard?id=paper-document&codeScope=overall,N/A,INFO
+Size,Lines of Code,302000,94000,N/A,INFO
+Size,Lines to Cover,89000,58000,N/A,INFO
+Quality,Coverage %,31.6%,10.0%,paper-payment-backend,CRITICAL
+Quality,Duplications %,3.8%,12.5%,paper-payment-backend,CRITICAL
+Quality,Coverage Gap to 80%,48.4pp,70.0pp,paper-payment-backend,CRITICAL
+Quality,Duplication over Threshold,0.8pp,9.5pp,paper-payment-backend,CRITICAL
+Reliability,Bugs,1,1,TIE,WARNING
+Reliability,Bug Rating,C,C,TIE,WARNING
+Security,Vulnerabilities,0,0,TIE,OK
+Security,Vulnerability Rating,A,A,TIE,OK
+Security,Security Hotspots,1,0,paper-document,OK
+Maintainability,Code Smells,3000,1500,paper-document,WARNING
+Maintainability,Code Smell Density,10/1k LOC,16/1k LOC,paper-payment-backend,WARNING
+Issues,Total Issues,3001,1540,paper-document,INFO
+Issues,Critical Issues,1971,334,paper-document,WARNING
+Issues,Major Issues,93,23,paper-document,OK
+Issues,Minor Issues,883,548,paper-document,OK
+Issues,Info Issues,54,635,paper-document,INFO
+Trends,6-Month Growth,+1363 (+83%),+184 (+14%),paper-document,WARNING
+Trends,Monthly Average,+227,+31,paper-document,WARNING
+Quality Gate,Status,FAILED,FAILED,TIE,CRITICAL

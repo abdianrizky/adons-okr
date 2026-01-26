@@ -1,0 +1,35 @@
+# Environment variables
+.env
+
+# Temporary files
+.temp/
+mcp-*.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Data files (optional - uncomment if you don't want to commit data)
+# data/*.csv
+# data/*.json
+# data/*.html
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

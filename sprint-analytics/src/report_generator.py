@@ -190,6 +190,45 @@ class ReportGenerator:
         else:
             return f"{start.strftime('%b %d')} - {end.strftime('%b %d')}, {start.year}"
 
+    def _generate_sprint_timeline_gantt(self, metrics_list: List[SprintMetrics]) -> str:
+        """Generate Mermaid.js Gantt chart showing all sprints as timeline items
+
+        Args:
+            metrics_list: List of all SprintMetrics objects
+
+        Returns:
+            Mermaid.js Gantt chart syntax as string
+        """
+        lines = []
+        lines.append("```mermaid")
+        lines.append("gantt")
+        lines.append("    title Sprint Timeline Overview - H2 2025")
+        lines.append("    dateFormat YYYY-MM-DD")
+        lines.append("    axisFormat %b %d")
+        lines.append("")
+        lines.append("    section Sprints")
+
+        for m in metrics_list:
+            # Get sprint date range
+            start_date, end_date = self._get_sprint_date_range(m)
+
+            # Determine sprint status based on delivery rate
+            if m.delivery_rate >= 100:
+                status = "done"  # Green - Perfect delivery
+            elif m.delivery_rate >= 75:
+                status = "active"  # Blue - Good performance
+            else:
+                status = "crit"  # Red - Needs attention
+
+            # Format sprint label with key metrics
+            sprint_label = f"{m.sprint_name} ({m.points_delivered}/{m.total_work}pts, {m.delivery_rate:.0f}%)"
+
+            # Add sprint as timeline item
+            lines.append(f"    {sprint_label} :{status}, {start_date}, {end_date}")
+
+        lines.append("```")
+        return '\n'.join(lines)
+
     def _check_indonesian_holidays(self, start_date: str, end_date: str) -> List[Dict]:
         """Check for Indonesian public holidays in date range
 
@@ -281,6 +320,19 @@ class ReportGenerator:
 
         # Visualizations
         lines.append("## Visualizations")
+        lines.append("")
+        lines.append("")
+        lines.append("### Sprint Timeline Overview")
+        lines.append("")
+        sprint_timeline_gantt = self._generate_sprint_timeline_gantt(metrics_list)
+        lines.append(sprint_timeline_gantt)
+        lines.append("")
+        lines.append("*Timeline view of all sprints with delivery performance*")
+        lines.append("")
+        lines.append("**Legend:**")
+        lines.append("- 🟢 Green (done) = Perfect delivery (≥100%)")
+        lines.append("- 🔵 Blue (active) = Good performance (≥75%)")
+        lines.append("- 🔴 Red (crit) = Needs attention (<75%)")
         lines.append("")
         lines.append("")
         lines.append("### Sprint Velocity")

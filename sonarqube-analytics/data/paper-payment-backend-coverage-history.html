@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SonarQube Coverage History</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 30px;
+        }
+        .chart-container {
+            position: relative;
+            height: 400px;
+            margin-bottom: 40px;
+        }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .stat-card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 6px;
+            border-left: 4px solid #007bff;
+        }
+        .stat-label {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+        .stat-value {
+            color: #333;
+            font-size: 24px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📊 SonarQube Coverage History</h1>
+
+        <div class="chart-container">
+            <canvas id="coverageChart"></canvas>
+        </div>
+
+        <div class="chart-container">
+            <canvas id="linesChart"></canvas>
+        </div>
+
+        <div class="stats">
+            <div class="stat-card">
+                <div class="stat-label">Current Coverage</div>
+                <div class="stat-value">31.6%</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Coverage Change</div>
+                <div class="stat-value">+9.5pp</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Lines to Cover</div>
+                <div class="stat-value">89,000</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Covered Lines</div>
+                <div class="stat-value">28,124</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const dates = ["Jul 01, 2025", "Jul 15, 2025", "Aug 01, 2025", "Aug 15, 2025", "Sep 01, 2025", "Sep 15, 2025", "Oct 01, 2025", "Oct 15, 2025", "Nov 01, 2025", "Nov 15, 2025", "Dec 01, 2025", "Dec 15, 2025"];
+        const coverageData = [22.1, 22.8, 23.5, 24.2, 25.2, 26.1, 27.8, 28.5, 29.5, 30.2, 31.0, 31.6];
+        const linesToCoverData = [71563.0, 72000.0, 73200.0, 74500.0, 76000.0, 77500.0, 80000.0, 82000.0, 85000.0, 87000.0, 88500.0, 89000.0];
+        const coveredLinesData = [15815, 16416, 17202, 18029, 19152, 20227, 22240, 23370, 25075, 26274, 27435, 28124];
+
+        // Coverage % Chart
+        new Chart(document.getElementById('coverageChart'), {
+            type: 'line',
+            data: {
+                labels: dates,
+                datasets: [{
+                    label: 'Coverage %',
+                    data: coverageData,
+                    borderColor: '#007bff',
+                    backgroundColor: 'rgba(0, 123, 255, 0.1)',
+                    fill: true,
+                    tension: 0.4
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    title: {
+                        display: true,
+                        text: 'Test Coverage Over Time',
+                        font: { size: 16 }
+                    },
+                    legend: {
+                        display: true,
+                        position: 'top'
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        max: 100,
+                        ticks: {
+                            callback: function(value) {
+                                return value + '%';
+                            }
+                        }
+                    }
+                }
+            }
+        });
+
+        // Lines Chart
+        new Chart(document.getElementById('linesChart'), {
+            type: 'line',
+            data: {
+                labels: dates,
+                datasets: [
+                    {
+                        label: 'Lines to Cover',
+                        data: linesToCoverData,
+                        borderColor: '#6c757d',
+                        backgroundColor: 'rgba(108, 117, 125, 0.1)',
+                        fill: false,
+                        tension: 0.4
+                    },
+                    {
+                        label: 'Covered Lines',
+                        data: coveredLinesData,
+                        borderColor: '#28a745',
+                        backgroundColor: 'rgba(40, 167, 69, 0.1)',
+                        fill: true,
+                        tension: 0.4
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    title: {
+                        display: true,
+                        text: 'Lines to Cover vs Covered Lines',
+                        font: { size: 16 }
+                    },
+                    legend: {
+                        display: true,
+                        position: 'top'
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        ticks: {
+                            callback: function(value) {
+                                return value.toLocaleString();
+                            }
+                        }
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+Metric,paper-payment-backend_Score,paper-payment-backend_Proof,paper-document_Score,paper-document_Proof
+Reliability (Bugs),N/A,N/A,N/A,N/A
+Security (Vulnerabilities),N/A,N/A,N/A,N/A
+Security Review (Security Hotspot),WARNING,85.71% reviewed,OK,100% reviewed
+Maintainability (Code Smells),WARNING,3000 issues,WARNING,1000 issues
+Blocker Issues,OK,0,OK,0
+Critical Issues,ERROR,1971,WARNING,334
+Major Issues,WARNING,93,WARNING,23
+Minor Issues,ERROR,883,WARNING,548
+Info Issues,WARNING,53,OK,95
+Coverage (New Code),ERROR,40.0%,ERROR,26.6%
+Duplications (New Code),WARNING,3.21%,ERROR,5.73%
+Quality Gate Status,ERROR,Failing,ERROR,Failing

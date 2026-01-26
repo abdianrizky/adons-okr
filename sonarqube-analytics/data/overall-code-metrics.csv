@@ -1,0 +1,23 @@
+Metric,paper-payment-backend_Score,paper-payment-backend_Value,paper-document_Score,paper-document_Value
+Project_Link,https://sonar.infra.paper.id/dashboard?id=paper-payment-backend&codeScope=overall,,https://sonar.infra.paper.id/dashboard?id=paper-document&codeScope=overall,
+Lines of Code,-,302000,-,94000
+Reliability (Bugs),C,1 open issue,C,1 open issue
+Security (Vulnerabilities),A,0 open issues,A,0 open issues
+Security Hotspots,A,1 hotspot,A,0 hotspots
+Maintainability (Code Smells),A,3000 issues,A,1500 issues
+Total Open Issues,-,3001,-,1540
+Accepted Issues,OK,0,OK,0
+Blocker Issues,OK,0,OK,0
+Critical Issues,WARNING,1971,WARNING,334
+Major Issues,WARNING,93,WARNING,23
+Minor Issues,WARNING,883,WARNING,548
+Info Issues,OK,54,OK,635
+Coverage,CRITICAL,31.6%,EMERGENCY,10.0%
+Lines to Cover,-,89000,-,58000
+Uncovered Lines,-,61000,-,52200
+Coverage Gap to 80%,-,48.4pp,-,70.0pp
+Additional Lines Needed,-,43200,-,40600
+Duplications,OK,3.8%,CRITICAL,12.5%
+Duplicated Lines,-,11476,-,11750
+Duplication vs Threshold,-,+0.8pp,-,+9.5pp
+Quality Gate Status,FAILED,4 conditions failed,FAILED,2 conditions failed

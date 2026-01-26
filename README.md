@@ -98,11 +98,67 @@ python3 gather_sprint_metrics.py --help
 - **Velocity**: Average points delivered per sprint
 - **Burndown**: Points remaining (Total Work - Delivered)
 
+## 🔍 SonarQube Analytics
+
+Comprehensive code quality and coverage tracking for Paper.id backend projects.
+
+**[📋 View SonarQube Analytics Documentation](./sonarqube-analytics/README.md)**
+
+### Quick Stats
+
+- **Projects Monitored**: paper-payment-backend (302k LOC), paper-document (94k LOC)
+- **Overall Quality Gate**: ❌ Failed (both projects)
+- **Total Issues Tracked**: 4,541 issues
+- **Coverage Reports**: Historical coverage tracking with interactive charts
+
+### Key Findings
+
+#### paper-payment-backend
+- Coverage: 31.6% (target: 80%) ❌
+- Duplications: 3.8% ✅
+- Issues: 3,001 (65.7% critical severity)
+- [View Dashboard](https://sonar.infra.paper.id/dashboard?id=paper-payment-backend&codeScope=overall)
+
+#### paper-document
+- Coverage: 10.0% 🔥 **CRITICAL**
+- Duplications: 12.5% 🔥 **CRITICAL**
+- Issues: 1,540 (21.7% critical severity)
+- [View Dashboard](https://sonar.infra.paper.id/dashboard?id=paper-document&codeScope=overall)
+
+### Available Reports
+
+- **[Overall Code Analysis Report](./sonarqube-analytics/reports/README.md)** - Complete codebase metrics
+- **Coverage History Charts** - Interactive HTML visualizations
+- **Issue Tracking CSV/JSON** - Exportable data for analysis
+- **Visual Proofs** - SonarQube dashboard screenshots
+
+### Project Structure
+
+```
+sonarqube-analytics/
+├── README.md                    # Main documentation
+├── scripts/                     # Analysis scripts
+│   ├── fetch-coverage-history.py
+│   ├── visualize-coverage.py
+│   └── generate-coverage-graph.sh
+├── data/                        # Generated data files
+│   ├── *.csv                    # Metrics & coverage data
+│   ├── *.json                   # Raw API responses
+│   └── *.html                   # Interactive charts
+├── reports/                     # Analysis reports
+│   ├── README.md                # Overall code summary
+│   └── proofs/                  # Screenshot evidence
+└── docs/                        # Documentation
+```
+
 ## 🔗 Links
 
 - [Sprint Analytics Documentation](./sprint-analytics/README.md)
 - [Sprint Summary Report](./sprint-analytics/output/sprint_summary.md)
+- [SonarQube Analytics Documentation](./sonarqube-analytics/README.md)
+- [SonarQube Code Analysis Report](./sonarqube-analytics/reports/README.md)
 - [ClickUp Workspace](https://app.clickup.com/3708016/)
+- [SonarQube Server](https://sonar.infra.paper.id)
 
 ---
 
