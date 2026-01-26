@@ -1,0 +1,329 @@
+{
+  "summary": {
+    "total_prs": 205,
+    "total_contributors": 1,
+    "total_repositories": 14,
+    "avg_overall_score": 29.385365853658538,
+    "median_overall_score": 30.0,
+    "date_range": {
+      "start": "2025-06-24 09:17:48",
+      "end": "2025-12-31 03:18:44"
+    }
+  },
+  "quality_trends": {
+    "weeks": [
+      "2025-06-23/2025-06-29",
+      "2025-06-30/2025-07-06",
+      "2025-07-07/2025-07-13",
+      "2025-07-14/2025-07-20",
+      "2025-07-21/2025-07-27",
+      "2025-07-28/2025-08-03",
+      "2025-08-04/2025-08-10",
+      "2025-08-11/2025-08-17",
+      "2025-08-18/2025-08-24",
+      "2025-08-25/2025-08-31",
+      "2025-09-01/2025-09-07",
+      "2025-09-08/2025-09-14",
+      "2025-09-15/2025-09-21",
+      "2025-09-22/2025-09-28",
+      "2025-09-29/2025-10-05",
+      "2025-10-06/2025-10-12",
+      "2025-10-13/2025-10-19",
+      "2025-10-20/2025-10-26",
+      "2025-10-27/2025-11-02",
+      "2025-11-03/2025-11-09",
+      "2025-11-10/2025-11-16",
+      "2025-11-17/2025-11-23",
+      "2025-11-24/2025-11-30",
+      "2025-12-01/2025-12-07",
+      "2025-12-08/2025-12-14",
+      "2025-12-15/2025-12-21",
+      "2025-12-22/2025-12-28",
+      "2025-12-29/2026-01-04"
+    ],
+    "avg_scores": [
+      26.333333333333332,
+      28.0,
+      28.75,
+      25.666666666666668,
+      28.944444444444443,
+      28.25,
+      28.09090909090909,
+      29.692307692307693,
+      29.142857142857142,
+      26.333333333333332,
+      27.0,
+      28.272727272727273,
+      30.25,
+      29.9,
+      30.0,
+      29.333333333333332,
+      28.857142857142858,
+      27.714285714285715,
+      30.0,
+      28.4,
+      31.5,
+      30.5,
+      29.6,
+      31.428571428571427,
+      31.571428571428573,
+      31.9,
+      32.44444444444444,
+      31.714285714285715
+    ],
+    "pr_counts": [
+      3,
+      8,
+      8,
+      6,
+      18,
+      8,
+      11,
+      13,
+      7,
+      3,
+      5,
+      11,
+      8,
+      10,
+      6,
+      3,
+      7,
+      7,
+      3,
+      5,
+      2,
+      8,
+      5,
+      7,
+      7,
+      10,
+      9,
+      7
+    ]
+  },
+  "contributor_metrics": [
+    {
+      "contributor": "adon-paper",
+      "total_prs": 205,
+      "avg_score": 29.385365853658538,
+      "median_score": 30.0,
+      "score_std": 3.137811852762706,
+      "first_pr": "2025-06-24 09:17:48",
+      "last_pr": "2025-12-31 03:18:44"
+    }
+  ],
+  "repository_metrics": [
+    {
+      "repository": "paper-indonesia/paper-payment-backend",
+      "total_prs": 136,
+      "avg_score": 29.0,
+      "median_score": 29.0,
+      "contributors": 1
+    },
+    {
+      "repository": "paper-indonesia/paper-document",
+      "total_prs": 23,
+      "avg_score": 30.956521739130434,
+      "median_score": 31.0,
+      "contributors": 1
+    },
+    {
+      "repository": "paper-indonesia/paper-invoicer",
+      "total_prs": 13,
+      "avg_score": 30.0,
+      "median_score": 31.0,
+      "contributors": 1
+    },
+    {
+      "repository": "paper-indonesia/milky-way",
+      "total_prs": 8,
+      "avg_score": 29.875,
+      "median_score": 31.0,
+      "contributors": 1
+    },
+    {
+      "repository": "paper-indonesia/earth",
+      "total_prs": 6,
+      "avg_score": 30.0,
+      "median_score": 29.5,
+      "contributors": 1
+    },
+    {
+      "repository": "paper-indonesia/pulumi-monitoring",
+      "total_prs": 6,
+      "avg_score": 29.5,
+      "median_score": 30.0,
+      "contributors": 1
+    },
+    {
+      "repository": "paper-indonesia/pdf-generator",
+      "total_prs": 3,
+      "avg_score": 28.333333333333332,
+      "median_score": 30.0,
+      "contributors": 1
+    },
+    {
+      "repository": "paper-indonesia/documentation",
+      "total_prs": 2,
+      "avg_score": 31.0,
+      "median_score": 31.0,
+      "contributors": 1
+    },
+    {
+      "repository": "paper-indonesia/paper-bimasakti",
+      "total_prs": 2,
+      "avg_score": 27.5,
+      "median_score": 27.5,
+      "contributors": 1
+    },
+    {
+      "repository": "paper-indonesia/paperangularapp",
+      "total_prs": 2,
+      "avg_score": 30.0,
+      "median_score": 30.0,
+      "contributors": 1
+    },
+    {
+      "repository": "paper-indonesia/bromo",
+      "total_prs": 1,
+      "avg_score": 30.0,
+      "median_score": 30.0,
+      "contributors": 1
+    },
+    {
+      "repository": "paper-indonesia/paper-feature-flag",
+      "total_prs": 1,
+      "avg_score": 28.0,
+      "median_score": 28.0,
+      "contributors": 1
+    },
+    {
+      "repository": "paper-indonesia/snap-core-processor",
+      "total_prs": 1,
+      "avg_score": 30.0,
+      "median_score": 30.0,
+      "contributors": 1
+    },
+    {
+      "repository": "paper-indonesia/stellar",
+      "total_prs": 1,
+      "avg_score": 32.0,
+      "median_score": 32.0,
+      "contributors": 1
+    }
+  ],
+  "category_scores": {
+    "readability": 3.902439024390244,
+    "function_usability": 3.7463414634146344,
+    "idiomaticity": 3.951219512195122,
+    "test_inclusion": 2.4292682926829268,
+    "commit_size": 3.707317073170732,
+    "complexity": 3.868292682926829,
+    "code_churn": 3.892682926829268,
+    "clean_code_structure": 3.8878048780487804
+  },
+  "decision_distribution": {
+    "GOOD": 141,
+    "ACCEPTABLE": 56,
+    "EXCELLENT": 7,
+    "NEEDS-WORK": 1
+  },
+  "monthly_metrics": [
+    {
+      "month": "2025-06",
+      "total_prs": 3,
+      "avg_score": 26.333333333333332,
+      "active_contributors": 1
+    },
+    {
+      "month": "2025-07",
+      "total_prs": 48,
+      "avg_score": 28.229166666666668,
+      "active_contributors": 1
+    },
+    {
+      "month": "2025-08",
+      "total_prs": 34,
+      "avg_score": 28.764705882352942,
+      "active_contributors": 1
+    },
+    {
+      "month": "2025-09",
+      "total_prs": 36,
+      "avg_score": 29.13888888888889,
+      "active_contributors": 1
+    },
+    {
+      "month": "2025-10",
+      "total_prs": 24,
+      "avg_score": 28.833333333333332,
+      "active_contributors": 1
+    },
+    {
+      "month": "2025-11",
+      "total_prs": 20,
+      "avg_score": 29.85,
+      "active_contributors": 1
+    },
+    {
+      "month": "2025-12",
+      "total_prs": 40,
+      "avg_score": 31.85,
+      "active_contributors": 1
+    }
+  ],
+  "top_performers": {
+    "top_contributors": [
+      {
+        "contributor": "adon-paper",
+        "avg_score": 29.385365853658538,
+        "total_prs": 205
+      }
+    ],
+    "top_repositories": [
+      {
+        "repository": "paper-indonesia/stellar",
+        "avg_score": 32.0,
+        "total_prs": 1
+      },
+      {
+        "repository": "paper-indonesia/documentation",
+        "avg_score": 31.0,
+        "total_prs": 2
+      },
+      {
+        "repository": "paper-indonesia/paper-document",
+        "avg_score": 30.956521739130434,
+        "total_prs": 23
+      },
+      {
+        "repository": "paper-indonesia/bromo",
+        "avg_score": 30.0,
+        "total_prs": 1
+      },
+      {
+        "repository": "paper-indonesia/earth",
+        "avg_score": 30.0,
+        "total_prs": 6
+      }
+    ]
+  },
+  "improvement_areas": {
+    "lowest_scoring_categories": [
+      {
+        "category": "test_inclusion",
+        "avg_score": 2.4292682926829268
+      },
+      {
+        "category": "commit_size",
+        "avg_score": 3.707317073170732
+      },
+      {
+        "category": "function_usability",
+        "avg_score": 3.7463414634146344
+      }
+    ],
+    "contributors_needing_support": []
+  }
+}

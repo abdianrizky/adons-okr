@@ -7,6 +7,7 @@ This repository contains tools and reports for tracking OKRs and sprint performa
 - **[📈 View Latest Sprint Summary Report](./sprint-analytics/output/sprint_summary.md)**
 - **[🔍 View SonarQube Code Analysis Report](./sonarqube-analytics/reports/README.md)**
 - **[⏱️ View MTTR Performance Report H2 2025](./MTTR/README.md)**
+- **[🎯 View Personal OKR Report (adon-paper, 2025-06-23 to 2026-01-01)](./omniscient/reports/adon-paper/2025_06_23_to_2026_01_01/okr_report.md)**
 
 ---
 
@@ -198,6 +199,82 @@ MTTR/
     └── mttr-2.png
 ```
 
+## 🎯 Omniscient OKR Analytics
+
+Comprehensive PR quality tracking and OKR reporting from the Omniscient database.
+
+**[🎯 View Personal OKR Report (adon-paper)](./omniscient/reports/adon-paper/2025_06_23_to_2026_01_01/okr_report.md)**
+
+### Quick Stats (adon-paper, 2025-06-23 to 2026-01-01)
+
+- **Total PRs**: 205 PRs across 14 repositories
+- **Average Score**: 29.39/40 (Grade B - Good)
+- **Performance**: 70% Good, 26% Acceptable, 4% Excellent
+- **Top Strengths**: Idiomaticity (3.95), Readability (3.90), Code Churn (3.89)
+- **Needs Improvement**: Test Inclusion (2.43)
+
+### System Features
+
+- **Data Source**: MySQL database with PR quality scores
+- **Metrics Tracked**: 8 quality categories (readability, usability, idiomaticity, etc.)
+- **Output Formats**: JSON, CSV, Markdown reports + 6 interactive charts
+- **Key Features**: Contributor performance, quality trends, improvement insights
+
+### Available Reports & Charts
+
+- **[Personal OKR Report (adon-paper)](./omniscient/reports/adon-paper/2025_06_23_to_2026_01_01/okr_report.md)** - Comprehensive PR quality analysis
+- **[Metrics JSON](./omniscient/output/adon-paper/2025_06_23_to_2026_01_01/okr_metrics.json)** - Complete structured data
+- **[PR Data CSV](./omniscient/output/adon-paper/2025_06_23_to_2026_01_01/pr_data.csv)** - Exportable PR records (205 PRs)
+- **Quality Trend Chart** - Weekly PR quality trends with volume
+- **Score Distribution Chart** - Overall score histogram with mean/median
+- **Category Heatmap** - Average scores across quality categories (matches dashboard!)
+- **Decision Breakdown Chart** - PR decision distribution
+- **Monthly Volume Chart** - Monthly PR volume and quality trends
+
+### Project Structure
+
+```
+omniscient/
+├── README.md                       # Documentation
+├── gather_okr_metrics.py           # Main CLI tool
+├── .env.example                    # Environment template
+├── requirements.txt                # Python dependencies
+├── src/                            # Source code modules
+│   ├── db_client.py                # MySQL database client
+│   ├── metrics_calculator.py      # Metrics computation
+│   ├── visualizer.py               # Chart generation
+│   └── report_generator.py        # Report creation
+├── output/                         # Generated charts & data
+└── reports/                        # Generated reports
+```
+
+### Usage
+
+```bash
+cd omniscient
+
+# Setup environment (one-time)
+make setup
+# Edit .env with your MySQL credentials
+
+# Generate YOUR report (default: adon-paper)
+make my-report              # All data up to today
+
+# Generate with specific date range
+python generate_user_report.py --user adon-paper --start-date 2025-06-23 --end-date 2026-01-01
+
+# Generate period reports
+make my-h2                  # H2 2025
+make my-q4                  # Q4 2025
+make my-ytd                 # Year to date
+
+# For different user
+make my-report GITHUB_USER=mohamadfhatir
+
+# View help
+make help
+```
+
 ## 🔗 Links
 
 - [Sprint Analytics Documentation](./sprint-analytics/README.md)
@@ -206,6 +283,8 @@ MTTR/
 - [SonarQube Code Analysis Report](./sonarqube-analytics/reports/README.md)
 - [MTTR Performance Report H2 2025](./MTTR/README.md)
 - [MTTR Metrics CSV](./MTTR/mttr_metrics.csv)
+- [Omniscient OKR Analytics](./omniscient/README.md)
+- [Personal OKR Report (adon-paper, 2025-06-23 to 2026-01-01)](./omniscient/reports/adon-paper/2025_06_23_to_2026_01_01/okr_report.md)
 - [ClickUp Workspace](https://app.clickup.com/3708016/)
 - [SonarQube Server](https://sonar.infra.paper.id)
 - [Bug Monitoring Dashboard](https://paperspark.paper.id/dashboard/3541-bug-issue-monitoring-dwh-ver)
