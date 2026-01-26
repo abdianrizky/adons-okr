@@ -6,6 +6,7 @@ This repository contains tools and reports for tracking OKRs and sprint performa
 
 - **[📈 View Latest Sprint Summary Report](./sprint-analytics/output/sprint_summary.md)**
 - **[🔍 View SonarQube Code Analysis Report](./sonarqube-analytics/reports/README.md)**
+- **[⏱️ View MTTR Performance Report H2 2025](./MTTR/README.md)**
 
 ---
 
@@ -158,14 +159,56 @@ sonarqube-analytics/
 └── docs/                        # Documentation
 ```
 
+## ⏱️ MTTR (Mean Time To Resolve)
+
+Comprehensive performance tracking for bug/issue resolution metrics.
+
+**[⏱️ View MTTR Performance Report H2 2025](./MTTR/README.md)**
+
+### Quick Stats (H2 2025)
+
+- **Reporting Period**: June 1 - December 31, 2025
+- **Total Tasks**: 151 tasks
+- **SLA Compliance**: 91.39% (138 out of 151 tasks)
+- **Avg Resolution Time**: 20.31 hours
+- **Avg Response Time**: 5.11 hours
+- **Performance Grade**: A- (Exceeds 90% target)
+
+### Key Highlights
+
+- **Strong Q3 Performance**: 93.7% compliance with 18.7-hour avg resolution time
+- **High Volume Capacity**: Successfully handled up to 14 tasks per week at 100% compliance
+- **Fast Response**: Sub-6 hour average response time demonstrates excellent triage
+- **Consistency**: 57.1% of weeks achieved 100% SLA compliance
+
+### Available Reports
+
+- **[Performance Report](./MTTR/README.md)** - Complete H2 2025 analysis with trends and recommendations
+- **[Raw Metrics CSV](./MTTR/mttr_metrics.csv)** - Weekly data for all 28 weeks
+- **[Live Dashboard](https://paperspark.paper.id/dashboard/3541-bug-issue-monitoring-dwh-ver)** - Real-time Metabase monitoring
+
+### Project Structure
+
+```
+MTTR/
+├── README.md                # Performance report & analysis
+├── mttr_metrics.csv         # Weekly metrics data
+└── proofs/                  # Dashboard screenshots
+    ├── mttr-1.png
+    └── mttr-2.png
+```
+
 ## 🔗 Links
 
 - [Sprint Analytics Documentation](./sprint-analytics/README.md)
 - [Sprint Summary Report](./sprint-analytics/output/sprint_summary.md)
 - [SonarQube Analytics Documentation](./sonarqube-analytics/README.md)
 - [SonarQube Code Analysis Report](./sonarqube-analytics/reports/README.md)
+- [MTTR Performance Report H2 2025](./MTTR/README.md)
+- [MTTR Metrics CSV](./MTTR/mttr_metrics.csv)
 - [ClickUp Workspace](https://app.clickup.com/3708016/)
 - [SonarQube Server](https://sonar.infra.paper.id)
+- [Bug Monitoring Dashboard](https://paperspark.paper.id/dashboard/3541-bug-issue-monitoring-dwh-ver)
 
 ---
 
