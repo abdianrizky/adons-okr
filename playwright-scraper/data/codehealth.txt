@@ -1,0 +1,78 @@
+Engineering Performance Matrix
+
+Generated 2026-07-09 21:09 WIB · from cycle 2.49 · Updated weekly
+
+Part of Engineers OKR. We track performance closely each cycle to determine coverage across the team — this influences recognition, career milestones, and team-level decisions.
+Overview
+Rankings
+Sprint Points
+On-Call
+Deployments
+Code Health
+Test HealthBETA
+Services
+SERVICE OWNERSHIP MAP
+Network
+Service	Domain	Supporting BUs	Last Analyzed
+Moon Project	Enterprise invoicing (Kopken/Japfa/MLE tier), OCR, payment reconciliation	RnG	2026-07-06
+Nexus	Document approval workflow (successor to paper-workflow)	RnG	2026-07-02
+Paper Document	Paper Chain document engine (Network); local document types also tracked by RnG — doc flow, pay_out	RnG	2026-07-09
+celestial	SAP HANA integration (Kopi Kenangan) — enterprise/MLE customization	—	2025-07-21
+milky-way	User mgmt, auth, OTP, JWT, KYC/KYB, companies, feature flags, connections, U2U network	—	2026-07-09
+paper-gateway-nest	Central API gateway + IAM + KYC/KYB + feature flagging	RnGFSPivot	2023-12-18
+paper-kyc	KYC/KYB verification (IziData + OpenAI + biometric)	—	2026-07-09
+paper-mail	Transactional email (Mailgun, Mailchimp) — all email notifications	—	2023-11-17
+paper-monolith	Generic config-driven document engine — enterprise/MLE customization	RnG	2026-07-06
+paper-notifier	Notification dispatch service	RnG	2026-05-03
+paper-oauth	OAuth / auth-adjacent	—	2023-09-27
+paper-workflow	Legacy workflow engine (maintenance mode)	RnG	2023-11-17
+RnG
+Service	Domain	Supporting BUs	Last Analyzed
+Aurora	Angular UI component library (shared design system)	NetworkFS	2026-07-09
+Earth	Core invoice + document engine (local SI/PI/PO/payments/partners)	Network	2026-07-09
+Paper Accounting (Golang)	Go rewrite of accounting	—	2026-07-09
+Paper Signing Service	E-meterai stamping (Peruri), digital signature	Network	2026-07-09
+Saturn	Inventory Go rewrite (FIFO, stock movements)	—	2026-07-09
+bromo	ERP integration (Accurate, Xero); MyInvois Malaysia secondary	Network	2026-07-08
+multiverse	Flutter mobile/web app	NetworkFS	2026-04-28
+paper-accounting	Legacy PHP accounting (Laravel)	—	—
+paper-communication	WhatsApp whitelabel (RnG); default WA notifications + email routed via Network; SMS + push	Network	2026-07-01
+paper-event-store	Event store / event sourcing backbone	NetworkFS	2026-06-23
+paper-finance	Finance service	—	2023-11-21
+paper-finance-golang	Go rewrite of finance	—	2026-04-22
+paper-import	Bulk import (Excel) — invoices, products, partners	Network	2026-07-09
+paper-import-v2	Bulk import v2 — invoices, products, partners	Network	2023-11-24
+paper-inventory	Legacy PHP inventory	—	2023-11-17
+paper-invoicer	Multi-tenant local invoice SaaS (Laravel)	Network	2023-12-18
+paper-open-api	Partner Open API integration	Network	2026-07-07
+paper-order	Order management (local)	—	—
+paper-payment-backend	Central payment chokepoint (digpay, paywall, payout, reconcile); U2U payment flows tracked by Network	NetworkFS	2026-07-09
+paper-reporting	AR/AP aging, P&L, cashflow, dashboards	—	2025-08-18
+paper-sign-adapter	On-premise e-meterai stamp adapter	—	—
+paper-tax	VAT/PPN, e-Faktur, Coretax/DJP, Pajakku	Network	2026-07-08
+paperangularapp	Angular web SPA (primary user app)	NetworkFS	2026-07-08
+pdf-generator	PDF rendering service (invoices, documents)	Network	—
+FS
+Service	Domain	Supporting BUs	Last Analyzed
+paper-bank-account	VCC, BRI/OCBC co-branding, corporate cards, digital wallets, Horizon debit card	—	2026-07-09
+paper-fintech	Fintech service	—	2025-01-07
+paper-mars	LMS, wallets (DOKU/Harsya/PivotPay), credit reports (CLIK), paylater backend	—	2026-07-07
+Pivot
+Service	Domain	Supporting BUs	Last Analyzed
+Merchant Portal	Merchant-facing portal for Paper Indonesia payment gateway	—	2026-04-16
+backend-portal	Go core for Paper Indonesia payment gateway (merchants, disbursement, refund)	—	2026-07-09
+bill-core-processor	Bill payment core processor	—	2025-12-15
+credit-card-core-webview	Credit card webview UI	—	2025-08-06
+creditcard-core-processor	Credit card payment core processor	—	2026-07-08
+pg-settlement-service	PG settlement and reconciliation	—	2026-05-06
+pg-wallet-service	PG digital wallet service	—	2026-07-06
+snap-core-processor	SNAP protocol core processor (BI-SNAP VA, QRIS)	—	2026-07-09
+wallet-apps	Mobile wallet app (PG)	—	2025-04-09
+xb-core-processor	Cross-border payment core processor	—	2026-07-09
+DevOps
+Service	Domain	Supporting BUs	Last Analyzed
+paper-kong	Kong API gateway configuration	—	—
+paper-sync	Data sync tooling	—	—
+sirius	Internal platform service	—	2026-04-24
+
+Primary ownership by BU. Supporting BUs have commit/fix access but the primary BU owns the roadmap and on-call. Last Analyzed = most recent SonarQube scan (green = 2026, amber = 2025, gray = older).

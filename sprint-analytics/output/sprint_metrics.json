@@ -1,417 +1,248 @@
 {
-  "generated_at": "2026-01-26 21:08:29",
+  "generated_at": "2026-07-12 22:15:22",
   "overall_statistics": {
     "total_sprints": 12,
-    "total_committed": 163,
-    "total_delivered": 156,
+    "total_committed": 175,
+    "total_delivered": 175,
     "total_carryover_in": 0,
     "total_carryover_out": 0,
-    "total_work": 163,
-    "avg_delivery_rate": 95.87339743589745,
-    "avg_points_per_sprint": 13.0,
-    "velocity_std_dev": 2.449489742783178,
+    "total_work": 175,
+    "avg_delivery_rate": 100.0,
+    "avg_points_per_sprint": 14.583333333333334,
+    "velocity_std_dev": 4.768967975941498,
     "best_sprint": {
-      "number": 43,
-      "name": "Sprint 43 (Payment)",
+      "number": 49,
+      "name": "Sprint 2.49 (5/1/26 - 19/1/26)",
       "delivery_rate": 100.0
     },
     "worst_sprint": {
-      "number": 2,
-      "name": "Sprint 2 (RnG)",
-      "delivery_rate": 76.92307692307693
+      "number": 49,
+      "name": "Sprint 2.49 (5/1/26 - 19/1/26)",
+      "delivery_rate": 100.0
     }
   },
   "sprints": [
     {
-      "sprint_number": 43,
-      "sprint_name": "Sprint 43 (Payment)",
-      "week": 36,
-      "list_id": "901609751709",
-      "url": "https://app.clickup.com/3708016/v/li/901609751709",
-      "total_tasks": 3,
-      "completed_tasks_count": 3,
-      "points_committed": 11,
-      "carryover_in": 0,
-      "points_delivered": 11,
-      "carryover_out": 0,
-      "total_work": 11,
-      "burndown": 0,
-      "delivery_rate": 100.0,
-      "all_tasks": [
-        {
-          "task_id": "86czgvnrn",
-          "name": "[Pivot][BE] Pivot Callback",
-          "url": "https://app.clickup.com/t/86czgvnrn",
-          "status": "8.0 deployed",
-          "points": 5,
-          "is_completed": true
-        },
-        {
-          "task_id": "86czgvnr5",
-          "name": "[Pivot][BE] Request 3DS",
-          "url": "https://app.clickup.com/t/86czgvnr5",
-          "status": "8.0 deployed",
-          "points": 3,
-          "is_completed": true
-        },
-        {
-          "task_id": "86czgvnp8",
-          "name": "[Pivot][BE] Validate Payment",
-          "url": "https://app.clickup.com/t/86czgvnp8",
-          "status": "8.0 deployed",
-          "points": 3,
-          "is_completed": true
-        }
-      ],
-      "completed_tasks": [
-        {
-          "task_id": "86czgvnrn",
-          "name": "[Pivot][BE] Pivot Callback",
-          "url": "https://app.clickup.com/t/86czgvnrn",
-          "status": "8.0 deployed",
-          "points": 5,
-          "is_completed": true
-        },
-        {
-          "task_id": "86czgvnr5",
-          "name": "[Pivot][BE] Request 3DS",
-          "url": "https://app.clickup.com/t/86czgvnr5",
-          "status": "8.0 deployed",
-          "points": 3,
-          "is_completed": true
-        },
-        {
-          "task_id": "86czgvnp8",
-          "name": "[Pivot][BE] Validate Payment",
-          "url": "https://app.clickup.com/t/86czgvnp8",
-          "status": "8.0 deployed",
-          "points": 3,
-          "is_completed": true
-        }
-      ],
-      "carryover_in_tasks": [],
-      "carryover_out_tasks": [],
-      "sprint_start_date": "1751972400000",
-      "sprint_end_date": "1753181999999",
-      "daily_completion": {
-        "2025-07-08": 11,
-        "2025-07-09": 11,
-        "2025-07-10": 11,
-        "2025-07-11": 11,
-        "2025-07-12": 11,
-        "2025-07-13": 11,
-        "2025-07-14": 11,
-        "2025-07-15": 11,
-        "2025-07-16": 11,
-        "2025-07-17": 11,
-        "2025-07-18": 11,
-        "2025-07-19": 11,
-        "2025-07-20": 11,
-        "2025-07-21": 0
-      },
-      "sprint_reporting_url": "https://app.clickup.com/3708016/v/db/3h53g-249216"
-    },
-    {
-      "sprint_number": 44,
-      "sprint_name": "Sprint 44 (Payment)",
-      "week": 37,
-      "list_id": "901610062693",
-      "url": "https://app.clickup.com/3708016/v/li/901610062693",
-      "total_tasks": 8,
-      "completed_tasks_count": 7,
-      "points_committed": 16,
+      "sprint_number": 49,
+      "sprint_name": "Sprint 2.49 (5/1/26 - 19/1/26)",
+      "week": 1,
+      "list_id": "901612829889",
+      "url": "https://app.clickup.com/3708016/v/li/901612829889",
+      "total_tasks": 6,
+      "completed_tasks_count": 6,
+      "points_committed": 13,
       "carryover_in": 0,
       "points_delivered": 13,
       "carryover_out": 0,
-      "total_work": 16,
-      "burndown": 3,
-      "delivery_rate": 81.25,
-      "all_tasks": [
-        {
-          "task_id": "86cztvegc",
-          "name": "Phase 3: High Risk (Core Payment Operations)",
-          "url": "https://app.clickup.com/t/86cztvegc",
-          "status": "8.0 deployed",
-          "points": 0,
-          "is_completed": true
-        },
-        {
-          "task_id": "86cztvedm",
-          "name": "Phase 2: Medium Risk (Verification & Sync)",
-          "url": "https://app.clickup.com/t/86cztvedm",
-          "status": "8.0 deployed",
-          "points": 0,
-          "is_completed": true
-        },
-        {
-          "task_id": "86cztvea7",
-          "name": "Phase 1: Low Risk (Non-Critical Operations)",
-          "url": "https://app.clickup.com/t/86cztvea7",
-          "status": "8.0 deployed",
-          "points": 0,
-          "is_completed": true
-        },
-        {
-          "task_id": "86czqwy7a",
-          "name": "BE",
-          "url": "https://app.clickup.com/t/86czqwy7a",
-          "status": "8.0 deployed",
-          "points": 3,
-          "is_completed": true
-        },
-        {
-          "task_id": "86czqc3vd",
-          "name": "[Bug Fix] [BE] Fix Static VA creation not including mitra",
-          "url": "https://app.clickup.com/t/86czqc3vd",
-          "status": "8.0 deployed",
-          "points": 2,
-          "is_completed": true
-        },
-        {
-          "task_id": "86cznprpu",
-          "name": "[PaperXB] Multi Currency Invoice Payment Disbursement PDF",
-          "url": "https://app.clickup.com/t/86cznprpu",
-          "status": "8.0 deployed",
-          "points": 5,
-          "is_completed": true
-        },
-        {
-          "task_id": "86cznmmrn",
-          "name": "[Instant Payment] [BE] Alert and Monitoring",
-          "url": "https://app.clickup.com/t/86cznmmrn",
-          "status": "8.0 deployed",
-          "points": 3,
-          "is_completed": true
-        },
-        {
-          "task_id": "86cznmcan",
-          "name": "[Tech Improvements] Migrate schedulers to Kubejob",
-          "url": "https://app.clickup.com/t/86cznmcan",
-          "status": "8.2 fully released",
-          "points": 3,
-          "is_completed": false
-        }
-      ],
-      "completed_tasks": [
-        {
-          "task_id": "86cztvegc",
-          "name": "Phase 3: High Risk (Core Payment Operations)",
-          "url": "https://app.clickup.com/t/86cztvegc",
-          "status": "8.0 deployed",
-          "points": 0,
-          "is_completed": true
-        },
-        {
-          "task_id": "86cztvedm",
-          "name": "Phase 2: Medium Risk (Verification & Sync)",
-          "url": "https://app.clickup.com/t/86cztvedm",
-          "status": "8.0 deployed",
-          "points": 0,
-          "is_completed": true
-        },
-        {
-          "task_id": "86cztvea7",
-          "name": "Phase 1: Low Risk (Non-Critical Operations)",
-          "url": "https://app.clickup.com/t/86cztvea7",
-          "status": "8.0 deployed",
-          "points": 0,
-          "is_completed": true
-        },
-        {
-          "task_id": "86czqwy7a",
-          "name": "BE",
-          "url": "https://app.clickup.com/t/86czqwy7a",
-          "status": "8.0 deployed",
-          "points": 3,
-          "is_completed": true
-        },
-        {
-          "task_id": "86czqc3vd",
-          "name": "[Bug Fix] [BE] Fix Static VA creation not including mitra",
-          "url": "https://app.clickup.com/t/86czqc3vd",
-          "status": "8.0 deployed",
-          "points": 2,
-          "is_completed": true
-        },
-        {
-          "task_id": "86cznprpu",
-          "name": "[PaperXB] Multi Currency Invoice Payment Disbursement PDF",
-          "url": "https://app.clickup.com/t/86cznprpu",
-          "status": "8.0 deployed",
-          "points": 5,
-          "is_completed": true
-        },
-        {
-          "task_id": "86cznmmrn",
-          "name": "[Instant Payment] [BE] Alert and Monitoring",
-          "url": "https://app.clickup.com/t/86cznmmrn",
-          "status": "8.0 deployed",
-          "points": 3,
-          "is_completed": true
-        }
-      ],
-      "carryover_in_tasks": [],
-      "carryover_out_tasks": [],
-      "sprint_start_date": "1753120800000",
-      "sprint_end_date": "1754243999999",
-      "daily_completion": {
-        "2025-07-22": 16,
-        "2025-07-23": 14,
-        "2025-07-24": 14,
-        "2025-07-25": 14,
-        "2025-07-26": 14,
-        "2025-07-27": 14,
-        "2025-07-28": 14,
-        "2025-07-29": 14,
-        "2025-07-30": 11,
-        "2025-07-31": 11,
-        "2025-08-01": 8,
-        "2025-08-02": 8,
-        "2025-08-03": 8
-      },
-      "sprint_reporting_url": "https://app.clickup.com/3708016/v/db/3h53g-252156"
-    },
-    {
-      "sprint_number": 45,
-      "sprint_name": "Sprint 45 (Payment)",
-      "week": 38,
-      "list_id": "901610251697",
-      "url": "https://app.clickup.com/3708016/v/li/901610251697",
-      "total_tasks": 3,
-      "completed_tasks_count": 3,
-      "points_committed": 10,
-      "carryover_in": 0,
-      "points_delivered": 10,
-      "carryover_out": 0,
-      "total_work": 10,
+      "total_work": 13,
       "burndown": 0,
       "delivery_rate": 100.0,
       "all_tasks": [
         {
-          "task_id": "86czupph7",
-          "name": "[Pivot] Use External ID as Reference ID",
-          "url": "https://app.clickup.com/t/86czupph7",
+          "task_id": "86d1f6mn0",
+          "name": "[BE][paper-payment-backend] Add disbursement_estimation_date to PID and DDT",
+          "url": "https://app.clickup.com/t/86d1f6mn0",
           "status": "8.0 deployed",
           "points": 3,
           "is_completed": true
         },
         {
-          "task_id": "86czuppd4",
-          "name": "[PaperXB] Proof of Payment PDF for Multi Currencies XB Transactions",
-          "url": "https://app.clickup.com/t/86czuppd4",
+          "task_id": "86d1f43hv",
+          "name": "[BE] Add AUD data to xb_country_currencies",
+          "url": "https://app.clickup.com/t/86d1f43hv",
           "status": "8.0 deployed",
-          "points": 5,
+          "points": 1,
           "is_completed": true
         },
         {
-          "task_id": "86czukrtb",
-          "name": "[BE] Flagging to include KYB users for BCA VA",
-          "url": "https://app.clickup.com/t/86czukrtb",
+          "task_id": "86d1dhr23",
+          "name": "[BE] Adjust endpoint to validate the country",
+          "url": "https://app.clickup.com/t/86d1dhr23",
           "status": "8.0 deployed",
-          "points": 2,
+          "points": 3,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d1davka",
+          "name": "[PaperXB] Checking the match between country and SWIFT code in SWIFT Validation checkpoint",
+          "url": "https://app.clickup.com/t/86d1davka",
+          "status": "8.0 deployed",
+          "points": 0,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d12p56y",
+          "name": "[Bug] Product Sync Accuracy Issue Due to Decimal Purchase Price",
+          "url": "https://app.clickup.com/t/86d12p56y",
+          "status": "8.0 deployed",
+          "points": 3,
+          "is_completed": true
+        },
+        {
+          "task_id": "86czy81w3",
+          "name": "[Bug] Unable to pay with VA static using VA Bank Permata on Payper.",
+          "url": "https://app.clickup.com/t/86czy81w3",
+          "status": "8.0 deployed",
+          "points": 3,
           "is_completed": true
         }
       ],
       "completed_tasks": [
         {
-          "task_id": "86czupph7",
-          "name": "[Pivot] Use External ID as Reference ID",
-          "url": "https://app.clickup.com/t/86czupph7",
+          "task_id": "86d1f6mn0",
+          "name": "[BE][paper-payment-backend] Add disbursement_estimation_date to PID and DDT",
+          "url": "https://app.clickup.com/t/86d1f6mn0",
           "status": "8.0 deployed",
           "points": 3,
           "is_completed": true
         },
         {
-          "task_id": "86czuppd4",
-          "name": "[PaperXB] Proof of Payment PDF for Multi Currencies XB Transactions",
-          "url": "https://app.clickup.com/t/86czuppd4",
+          "task_id": "86d1f43hv",
+          "name": "[BE] Add AUD data to xb_country_currencies",
+          "url": "https://app.clickup.com/t/86d1f43hv",
           "status": "8.0 deployed",
-          "points": 5,
+          "points": 1,
           "is_completed": true
         },
         {
-          "task_id": "86czukrtb",
-          "name": "[BE] Flagging to include KYB users for BCA VA",
-          "url": "https://app.clickup.com/t/86czukrtb",
+          "task_id": "86d1dhr23",
+          "name": "[BE] Adjust endpoint to validate the country",
+          "url": "https://app.clickup.com/t/86d1dhr23",
           "status": "8.0 deployed",
-          "points": 2,
+          "points": 3,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d1davka",
+          "name": "[PaperXB] Checking the match between country and SWIFT code in SWIFT Validation checkpoint",
+          "url": "https://app.clickup.com/t/86d1davka",
+          "status": "8.0 deployed",
+          "points": 0,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d12p56y",
+          "name": "[Bug] Product Sync Accuracy Issue Due to Decimal Purchase Price",
+          "url": "https://app.clickup.com/t/86d12p56y",
+          "status": "8.0 deployed",
+          "points": 3,
+          "is_completed": true
+        },
+        {
+          "task_id": "86czy81w3",
+          "name": "[Bug] Unable to pay with VA static using VA Bank Permata on Payper.",
+          "url": "https://app.clickup.com/t/86czy81w3",
+          "status": "8.0 deployed",
+          "points": 3,
           "is_completed": true
         }
       ],
       "carryover_in_tasks": [],
       "carryover_out_tasks": [],
-      "sprint_start_date": "1754330400000",
-      "sprint_end_date": "1755539999999",
+      "sprint_start_date": "1767628800000",
+      "sprint_end_date": "1768838399999",
       "daily_completion": {
-        "2025-08-05": 10,
-        "2025-08-06": 8,
-        "2025-08-07": 10,
-        "2025-08-08": 10,
-        "2025-08-09": 10,
-        "2025-08-10": 10,
-        "2025-08-11": 10,
-        "2025-08-12": 10,
-        "2025-08-13": 5,
-        "2025-08-14": 5,
-        "2025-08-15": 5,
-        "2025-08-16": 0,
-        "2025-08-17": 0,
-        "2025-08-18": 0
+        "2026-01-05": 13,
+        "2026-01-06": 13,
+        "2026-01-07": 13,
+        "2026-01-08": 13,
+        "2026-01-09": 13,
+        "2026-01-10": 13,
+        "2026-01-11": 13,
+        "2026-01-12": 13,
+        "2026-01-13": 13,
+        "2026-01-14": 13,
+        "2026-01-15": 13,
+        "2026-01-16": 13,
+        "2026-01-17": 13,
+        "2026-01-18": 13
       },
-      "sprint_reporting_url": "https://app.clickup.com/3708016/v/db/3h53g-253476"
+      "sprint_reporting_url": "https://app.clickup.com/3708016/v/db/3h53g-283196"
     },
     {
-      "sprint_number": 46,
-      "sprint_name": "Sprint 46 (Payment)",
-      "week": 39,
-      "list_id": "901610523078",
-      "url": "https://app.clickup.com/3708016/v/li/901610523078",
-      "total_tasks": 5,
-      "completed_tasks_count": 5,
-      "points_committed": 16,
+      "sprint_number": 50,
+      "sprint_name": "Sprint 2.50 (19/1/26 - 2/2/26)",
+      "week": 2,
+      "list_id": "901613100111",
+      "url": "https://app.clickup.com/3708016/v/li/901613100111",
+      "total_tasks": 9,
+      "completed_tasks_count": 9,
+      "points_committed": 20,
       "carryover_in": 0,
-      "points_delivered": 16,
+      "points_delivered": 20,
       "carryover_out": 0,
-      "total_work": 16,
+      "total_work": 20,
       "burndown": 0,
       "delivery_rate": 100.0,
       "all_tasks": [
         {
-          "task_id": "86d00q44f",
-          "name": "[Revamp Fee] [BE] Counter Data Injection",
-          "url": "https://app.clickup.com/t/86d00q44f",
+          "task_id": "86d1mr5mh",
+          "name": "[Tech] Remove disbursement batch status \"Approved\"",
+          "url": "https://app.clickup.com/t/86d1mr5mh",
+          "status": "8.0 deployed",
+          "points": 1,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d1mqkpq",
+          "name": "As Finops team, when I view the Disbursement Batch Detail, I want to see the # of disbursement records per batch",
+          "url": "https://app.clickup.com/t/86d1mqkpq",
+          "status": "8.0 deployed",
+          "points": 1,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d1mmzzx",
+          "name": "[FE] Add filter by manual disbursement",
+          "url": "https://app.clickup.com/t/86d1mmzzx",
+          "status": "8.0 deployed",
+          "points": 3,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d1mmzyf",
+          "name": "[BE] add isManual flag to the disbursement list records",
+          "url": "https://app.clickup.com/t/86d1mmzyf",
           "status": "8.0 deployed",
           "points": 5,
           "is_completed": true
         },
         {
-          "task_id": "86czzf0mq",
-          "name": "[SMBC] Adjust ASPI Review",
-          "url": "https://app.clickup.com/t/86czzf0mq",
+          "task_id": "86d1k1u0v",
+          "name": "[Hygiene] As a User, IWT download the filtered data in my PayIn dashboard",
+          "url": "https://app.clickup.com/t/86d1k1u0v",
           "status": "8.0 deployed",
           "points": 2,
           "is_completed": true
         },
         {
-          "task_id": "86czxhg22",
-          "name": "[BE] Static VA Supplier Fee",
-          "url": "https://app.clickup.com/t/86czxhg22",
+          "task_id": "86d1jkq9e",
+          "name": "[Tech/Data] Handle manual disbursement",
+          "url": "https://app.clickup.com/t/86d1jkq9e",
+          "status": "8.0 deployed",
+          "points": 0,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d1jj79v",
+          "name": "[Tech/Data] Show transaction type (payin/payout) and add filter capability in disbursement list, disbursement candidate, and disbursement batch detail",
+          "url": "https://app.clickup.com/t/86d1jj79v",
           "status": "8.0 deployed",
           "points": 3,
           "is_completed": true
         },
         {
-          "task_id": "86czwh6zg",
-          "name": "[Revamp Fee] [BE] Dynamic VA Fee Counter",
-          "url": "https://app.clickup.com/t/86czwh6zg",
+          "task_id": "86d1jj6pw",
+          "name": "[Tech/Data] In disb candidate, add capability to filter by bank name",
+          "url": "https://app.clickup.com/t/86d1jj6pw",
           "status": "8.0 deployed",
-          "points": 3,
+          "points": 2,
           "is_completed": true
         },
         {
-          "task_id": "86cznprb8",
-          "name": "[PaperXB] Multi Currency Invoice Payment Notification WhatsApp Message",
-          "url": "https://app.clickup.com/t/86cznprb8",
+          "task_id": "86d18vb0r",
+          "name": "[Improvement] In menu [Disbursement Batch], add filter by Disbursement ID",
+          "url": "https://app.clickup.com/t/86d18vb0r",
           "status": "8.0 deployed",
           "points": 3,
           "is_completed": true
@@ -419,41 +250,73 @@
       ],
       "completed_tasks": [
         {
-          "task_id": "86d00q44f",
-          "name": "[Revamp Fee] [BE] Counter Data Injection",
-          "url": "https://app.clickup.com/t/86d00q44f",
+          "task_id": "86d1mr5mh",
+          "name": "[Tech] Remove disbursement batch status \"Approved\"",
+          "url": "https://app.clickup.com/t/86d1mr5mh",
+          "status": "8.0 deployed",
+          "points": 1,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d1mqkpq",
+          "name": "As Finops team, when I view the Disbursement Batch Detail, I want to see the # of disbursement records per batch",
+          "url": "https://app.clickup.com/t/86d1mqkpq",
+          "status": "8.0 deployed",
+          "points": 1,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d1mmzzx",
+          "name": "[FE] Add filter by manual disbursement",
+          "url": "https://app.clickup.com/t/86d1mmzzx",
+          "status": "8.0 deployed",
+          "points": 3,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d1mmzyf",
+          "name": "[BE] add isManual flag to the disbursement list records",
+          "url": "https://app.clickup.com/t/86d1mmzyf",
           "status": "8.0 deployed",
           "points": 5,
           "is_completed": true
         },
         {
-          "task_id": "86czzf0mq",
-          "name": "[SMBC] Adjust ASPI Review",
-          "url": "https://app.clickup.com/t/86czzf0mq",
+          "task_id": "86d1k1u0v",
+          "name": "[Hygiene] As a User, IWT download the filtered data in my PayIn dashboard",
+          "url": "https://app.clickup.com/t/86d1k1u0v",
           "status": "8.0 deployed",
           "points": 2,
           "is_completed": true
         },
         {
-          "task_id": "86czxhg22",
-          "name": "[BE] Static VA Supplier Fee",
-          "url": "https://app.clickup.com/t/86czxhg22",
+          "task_id": "86d1jkq9e",
+          "name": "[Tech/Data] Handle manual disbursement",
+          "url": "https://app.clickup.com/t/86d1jkq9e",
+          "status": "8.0 deployed",
+          "points": 0,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d1jj79v",
+          "name": "[Tech/Data] Show transaction type (payin/payout) and add filter capability in disbursement list, disbursement candidate, and disbursement batch detail",
+          "url": "https://app.clickup.com/t/86d1jj79v",
           "status": "8.0 deployed",
           "points": 3,
           "is_completed": true
         },
         {
-          "task_id": "86czwh6zg",
-          "name": "[Revamp Fee] [BE] Dynamic VA Fee Counter",
-          "url": "https://app.clickup.com/t/86czwh6zg",
+          "task_id": "86d1jj6pw",
+          "name": "[Tech/Data] In disb candidate, add capability to filter by bank name",
+          "url": "https://app.clickup.com/t/86d1jj6pw",
           "status": "8.0 deployed",
-          "points": 3,
+          "points": 2,
           "is_completed": true
         },
         {
-          "task_id": "86cznprb8",
-          "name": "[PaperXB] Multi Currency Invoice Payment Notification WhatsApp Message",
-          "url": "https://app.clickup.com/t/86cznprb8",
+          "task_id": "86d18vb0r",
+          "name": "[Improvement] In menu [Disbursement Batch], add filter by Disbursement ID",
+          "url": "https://app.clickup.com/t/86d18vb0r",
           "status": "8.0 deployed",
           "points": 3,
           "is_completed": true
@@ -461,32 +324,299 @@
       ],
       "carryover_in_tasks": [],
       "carryover_out_tasks": [],
-      "sprint_start_date": "1755453600000",
-      "sprint_end_date": "1756663199999",
+      "sprint_start_date": "1768838400000",
+      "sprint_end_date": "1770047999999",
       "daily_completion": {
-        "2025-08-18": 16,
-        "2025-08-19": 14,
-        "2025-08-20": 14,
-        "2025-08-21": 16,
-        "2025-08-22": 16,
-        "2025-08-23": 16,
-        "2025-08-24": 16,
-        "2025-08-25": 16,
-        "2025-08-26": 14,
-        "2025-08-27": 14,
-        "2025-08-28": 14,
-        "2025-08-29": 14,
-        "2025-08-30": 14,
-        "2025-08-31": 14
+        "2026-01-19": 20,
+        "2026-01-20": 20,
+        "2026-01-21": 20,
+        "2026-01-22": 20,
+        "2026-01-23": 20,
+        "2026-01-24": 20,
+        "2026-01-25": 20,
+        "2026-01-26": 20,
+        "2026-01-27": 20,
+        "2026-01-28": 20,
+        "2026-01-29": 20,
+        "2026-01-30": 20,
+        "2026-01-31": 20,
+        "2026-02-01": 20
       },
-      "sprint_reporting_url": "https://app.clickup.com/3708016/v/db/3h53g-257436"
+      "sprint_reporting_url": "https://app.clickup.com/3708016/v/db/3h53g-285296"
     },
     {
-      "sprint_number": 47,
-      "sprint_name": "Sprint 47 (Payment)",
-      "week": 40,
-      "list_id": "901610830843",
-      "url": "https://app.clickup.com/3708016/v/li/901610830843",
+      "sprint_number": 51,
+      "sprint_name": "Sprint 2.51 (2/2/26 - 18/2/26)",
+      "week": 3,
+      "list_id": "901613324741",
+      "url": "https://app.clickup.com/3708016/v/li/901613324741",
+      "total_tasks": 14,
+      "completed_tasks_count": 14,
+      "points_committed": 18,
+      "carryover_in": 0,
+      "points_delivered": 18,
+      "carryover_out": 0,
+      "total_work": 18,
+      "burndown": 0,
+      "delivery_rate": 100.0,
+      "all_tasks": [
+        {
+          "task_id": "86d1tbema",
+          "name": "[BE] Return Custom Field on GET api/v1/invoicer/sales-invoices-v2/",
+          "url": "https://app.clickup.com/t/86d1tbema",
+          "status": "8.0 deployed",
+          "points": 2,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d1tbe5m",
+          "name": "[Custom Field] As a User, IWT See Custom Fields on Sales Invoice View",
+          "url": "https://app.clickup.com/t/86d1tbe5m",
+          "status": "8.0 deployed",
+          "points": 0,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d1tbbt0",
+          "name": "[BE] Save custom field into custom_document_header",
+          "url": "https://app.clickup.com/t/86d1tbbt0",
+          "status": "8.0 deployed",
+          "points": 3,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d1ta8g0",
+          "name": "[BE] DELETE Endpoint - DELETE /api/v1/custom-field/{uuid} - Earth",
+          "url": "https://app.clickup.com/t/86d1ta8g0",
+          "status": "8.0 deployed",
+          "points": 2,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d1ta652",
+          "name": "[BE] Update Endpoint - PUT /api/v1/custom-field/{uuid} - Earth",
+          "url": "https://app.clickup.com/t/86d1ta652",
+          "status": "8.0 deployed",
+          "points": 2,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d1ta03z",
+          "name": "[BE] company-meta-settings - Invoicer",
+          "url": "https://app.clickup.com/t/86d1ta03z",
+          "status": "8.0 deployed",
+          "points": 2,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d1t9q71",
+          "name": "[Custom Field] READ - IWT See Custom Field in company-meta-settings response",
+          "url": "https://app.clickup.com/t/86d1t9q71",
+          "status": "8.0 deployed",
+          "points": 0,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d1r0n4z",
+          "name": "[Bug] Incorrect Full Payment Processing for Foreign Credit Card Installments",
+          "url": "https://app.clickup.com/t/86d1r0n4z",
+          "status": "8.0 deployed",
+          "points": 2,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d1kefen",
+          "name": "[BE] Create Endpoint - POST /api/v1/custom-field - Earth",
+          "url": "https://app.clickup.com/t/86d1kefen",
+          "status": "8.0 deployed",
+          "points": 2,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d1he814",
+          "name": "[Custom Field] UPDATE - As a User, IWT Update a Custom Field on SI settings screen",
+          "url": "https://app.clickup.com/t/86d1he814",
+          "status": "8.0 deployed",
+          "points": 0,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d1he7yp",
+          "name": "[Custom Field] DELETE - As a User, IWT Delete a Custom Field on SI settings screen",
+          "url": "https://app.clickup.com/t/86d1he7yp",
+          "status": "8.0 deployed",
+          "points": 0,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d1he7w1",
+          "name": "[Custom Field] CREATE - As a User, IWT Create a New Custom Field on SI settings screen",
+          "url": "https://app.clickup.com/t/86d1he7w1",
+          "status": "8.0 deployed",
+          "points": 0,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d1c79mt",
+          "name": "[Custom Field] As a User, IWT see Custom Fields Render on generated PDFs",
+          "url": "https://app.clickup.com/t/86d1c79mt",
+          "status": "8.0 deployed",
+          "points": 3,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d1c79em",
+          "name": "[Custom Field] As a User, IWT Populate Custom Fields on Sales Invoice",
+          "url": "https://app.clickup.com/t/86d1c79em",
+          "status": "8.0 deployed",
+          "points": 0,
+          "is_completed": true
+        }
+      ],
+      "completed_tasks": [
+        {
+          "task_id": "86d1tbema",
+          "name": "[BE] Return Custom Field on GET api/v1/invoicer/sales-invoices-v2/",
+          "url": "https://app.clickup.com/t/86d1tbema",
+          "status": "8.0 deployed",
+          "points": 2,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d1tbe5m",
+          "name": "[Custom Field] As a User, IWT See Custom Fields on Sales Invoice View",
+          "url": "https://app.clickup.com/t/86d1tbe5m",
+          "status": "8.0 deployed",
+          "points": 0,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d1tbbt0",
+          "name": "[BE] Save custom field into custom_document_header",
+          "url": "https://app.clickup.com/t/86d1tbbt0",
+          "status": "8.0 deployed",
+          "points": 3,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d1ta8g0",
+          "name": "[BE] DELETE Endpoint - DELETE /api/v1/custom-field/{uuid} - Earth",
+          "url": "https://app.clickup.com/t/86d1ta8g0",
+          "status": "8.0 deployed",
+          "points": 2,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d1ta652",
+          "name": "[BE] Update Endpoint - PUT /api/v1/custom-field/{uuid} - Earth",
+          "url": "https://app.clickup.com/t/86d1ta652",
+          "status": "8.0 deployed",
+          "points": 2,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d1ta03z",
+          "name": "[BE] company-meta-settings - Invoicer",
+          "url": "https://app.clickup.com/t/86d1ta03z",
+          "status": "8.0 deployed",
+          "points": 2,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d1t9q71",
+          "name": "[Custom Field] READ - IWT See Custom Field in company-meta-settings response",
+          "url": "https://app.clickup.com/t/86d1t9q71",
+          "status": "8.0 deployed",
+          "points": 0,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d1r0n4z",
+          "name": "[Bug] Incorrect Full Payment Processing for Foreign Credit Card Installments",
+          "url": "https://app.clickup.com/t/86d1r0n4z",
+          "status": "8.0 deployed",
+          "points": 2,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d1kefen",
+          "name": "[BE] Create Endpoint - POST /api/v1/custom-field - Earth",
+          "url": "https://app.clickup.com/t/86d1kefen",
+          "status": "8.0 deployed",
+          "points": 2,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d1he814",
+          "name": "[Custom Field] UPDATE - As a User, IWT Update a Custom Field on SI settings screen",
+          "url": "https://app.clickup.com/t/86d1he814",
+          "status": "8.0 deployed",
+          "points": 0,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d1he7yp",
+          "name": "[Custom Field] DELETE - As a User, IWT Delete a Custom Field on SI settings screen",
+          "url": "https://app.clickup.com/t/86d1he7yp",
+          "status": "8.0 deployed",
+          "points": 0,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d1he7w1",
+          "name": "[Custom Field] CREATE - As a User, IWT Create a New Custom Field on SI settings screen",
+          "url": "https://app.clickup.com/t/86d1he7w1",
+          "status": "8.0 deployed",
+          "points": 0,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d1c79mt",
+          "name": "[Custom Field] As a User, IWT see Custom Fields Render on generated PDFs",
+          "url": "https://app.clickup.com/t/86d1c79mt",
+          "status": "8.0 deployed",
+          "points": 3,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d1c79em",
+          "name": "[Custom Field] As a User, IWT Populate Custom Fields on Sales Invoice",
+          "url": "https://app.clickup.com/t/86d1c79em",
+          "status": "8.0 deployed",
+          "points": 0,
+          "is_completed": true
+        }
+      ],
+      "carryover_in_tasks": [],
+      "carryover_out_tasks": [],
+      "sprint_start_date": "1770048000000",
+      "sprint_end_date": "1771430399999",
+      "daily_completion": {
+        "2026-02-02": 18,
+        "2026-02-03": 18,
+        "2026-02-04": 18,
+        "2026-02-05": 18,
+        "2026-02-06": 18,
+        "2026-02-07": 18,
+        "2026-02-08": 18,
+        "2026-02-09": 18,
+        "2026-02-10": 18,
+        "2026-02-11": 18,
+        "2026-02-12": 18,
+        "2026-02-13": 18,
+        "2026-02-14": 18,
+        "2026-02-15": 18,
+        "2026-02-16": 18,
+        "2026-02-17": 18
+      },
+      "sprint_reporting_url": "https://app.clickup.com/3708016/v/db/3h53g-287616"
+    },
+    {
+      "sprint_number": 52,
+      "sprint_name": "Sprint 2.52 (18/2/26 - 2/3/26)",
+      "week": 4,
+      "list_id": "901613512736",
+      "url": "https://app.clickup.com/3708016/v/li/901613512736",
       "total_tasks": 4,
       "completed_tasks_count": 4,
       "points_committed": 10,
@@ -498,228 +628,429 @@
       "delivery_rate": 100.0,
       "all_tasks": [
         {
-          "task_id": "86d0581na",
-          "name": "[PaperXB] Mapping Currency with Benef Type for Alipay - CNY",
-          "url": "https://app.clickup.com/t/86d0581na",
-          "status": "8.0 deployed",
-          "points": 2,
-          "is_completed": true
-        },
-        {
-          "task_id": "86czz4tr7",
-          "name": "[PaperXB] Alipay - Create Beneficiary and Remitter",
-          "url": "https://app.clickup.com/t/86czz4tr7",
+          "task_id": "86d1ym1m4",
+          "name": "[BE][paper-import] Read custom field value from api/v1/invoice/upload",
+          "url": "https://app.clickup.com/t/86d1ym1m4",
           "status": "8.0 deployed",
           "points": 3,
           "is_completed": true
         },
         {
-          "task_id": "86czz4pkw",
-          "name": "[PaperXB] Alipay - Adjust Create Remitter Endpoint",
-          "url": "https://app.clickup.com/t/86czz4pkw",
+          "task_id": "86d1ykyep",
+          "name": "[BE][paper-invoicer] Custom field template",
+          "url": "https://app.clickup.com/t/86d1ykyep",
           "status": "8.0 deployed",
-          "points": 3,
+          "points": 2,
           "is_completed": true
         },
         {
-          "task_id": "86czz4pe5",
-          "name": "[PaperXB] Alipay - Make Prefill Support Individual Remitter",
-          "url": "https://app.clickup.com/t/86czz4pe5",
+          "task_id": "86d1ykv8n",
+          "name": "[EQL Custom Invoice][BE] New PDF for EQL",
+          "url": "https://app.clickup.com/t/86d1ykv8n",
           "status": "8.0 deployed",
-          "points": 2,
+          "points": 5,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d1uhdgd",
+          "name": "[Custom Field] Custom field addition for SI bulk import",
+          "url": "https://app.clickup.com/t/86d1uhdgd",
+          "status": "8.0 deployed",
+          "points": 0,
           "is_completed": true
         }
       ],
       "completed_tasks": [
         {
-          "task_id": "86d0581na",
-          "name": "[PaperXB] Mapping Currency with Benef Type for Alipay - CNY",
-          "url": "https://app.clickup.com/t/86d0581na",
-          "status": "8.0 deployed",
-          "points": 2,
-          "is_completed": true
-        },
-        {
-          "task_id": "86czz4tr7",
-          "name": "[PaperXB] Alipay - Create Beneficiary and Remitter",
-          "url": "https://app.clickup.com/t/86czz4tr7",
+          "task_id": "86d1ym1m4",
+          "name": "[BE][paper-import] Read custom field value from api/v1/invoice/upload",
+          "url": "https://app.clickup.com/t/86d1ym1m4",
           "status": "8.0 deployed",
           "points": 3,
           "is_completed": true
         },
         {
-          "task_id": "86czz4pkw",
-          "name": "[PaperXB] Alipay - Adjust Create Remitter Endpoint",
-          "url": "https://app.clickup.com/t/86czz4pkw",
+          "task_id": "86d1ykyep",
+          "name": "[BE][paper-invoicer] Custom field template",
+          "url": "https://app.clickup.com/t/86d1ykyep",
           "status": "8.0 deployed",
-          "points": 3,
+          "points": 2,
           "is_completed": true
         },
         {
-          "task_id": "86czz4pe5",
-          "name": "[PaperXB] Alipay - Make Prefill Support Individual Remitter",
-          "url": "https://app.clickup.com/t/86czz4pe5",
+          "task_id": "86d1ykv8n",
+          "name": "[EQL Custom Invoice][BE] New PDF for EQL",
+          "url": "https://app.clickup.com/t/86d1ykv8n",
           "status": "8.0 deployed",
-          "points": 2,
+          "points": 5,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d1uhdgd",
+          "name": "[Custom Field] Custom field addition for SI bulk import",
+          "url": "https://app.clickup.com/t/86d1uhdgd",
+          "status": "8.0 deployed",
+          "points": 0,
           "is_completed": true
         }
       ],
       "carryover_in_tasks": [],
       "carryover_out_tasks": [],
-      "sprint_start_date": "1756663200000",
-      "sprint_end_date": "1757786399999",
+      "sprint_start_date": "1771430400000",
+      "sprint_end_date": "1772467199999",
       "daily_completion": {
-        "2025-09-01": 10,
-        "2025-09-02": 10,
-        "2025-09-03": 10,
-        "2025-09-04": 8,
-        "2025-09-05": 8,
-        "2025-09-06": 8,
-        "2025-09-07": 8,
-        "2025-09-08": 8,
-        "2025-09-09": 8,
-        "2025-09-10": 8,
-        "2025-09-11": 3,
-        "2025-09-12": 3,
-        "2025-09-13": 3
+        "2026-02-18": 10,
+        "2026-02-19": 10,
+        "2026-02-20": 10,
+        "2026-02-21": 10,
+        "2026-02-22": 10,
+        "2026-02-23": 10,
+        "2026-02-24": 10,
+        "2026-02-25": 10,
+        "2026-02-26": 10,
+        "2026-02-27": 10,
+        "2026-02-28": 10,
+        "2026-03-01": 10
       },
-      "sprint_reporting_url": "https://app.clickup.com/3708016/v/db/3h53g-260056"
+      "sprint_reporting_url": "https://app.clickup.com/3708016/v/db/3h53g-288316"
     },
     {
-      "sprint_number": 48,
-      "sprint_name": "Sprint 48 (Payment)",
-      "week": 41,
-      "list_id": "901611066339",
-      "url": "https://app.clickup.com/3708016/v/li/901611066339",
-      "total_tasks": 6,
+      "sprint_number": 53,
+      "sprint_name": "Sprint 2.53 (2/3/26 - 16/3/26)",
+      "week": 5,
+      "list_id": "901613810073",
+      "url": "https://app.clickup.com/3708016/v/li/901613810073",
+      "total_tasks": 7,
+      "completed_tasks_count": 7,
+      "points_committed": 14,
+      "carryover_in": 0,
+      "points_delivered": 14,
+      "carryover_out": 0,
+      "total_work": 14,
+      "burndown": 0,
+      "delivery_rate": 100.0,
+      "all_tasks": [
+        {
+          "task_id": "86d252dpz",
+          "name": "[Same Day DIsbursement] Is same-day disbursement eligibility check",
+          "url": "https://app.clickup.com/t/86d252dpz",
+          "status": "8.0 deployed",
+          "points": 2,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d24pn12",
+          "name": "[BE]",
+          "url": "https://app.clickup.com/t/86d24pn12",
+          "status": "8.0 deployed",
+          "points": 2,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d24pmmr",
+          "name": "[Custom Field] When user edit custom field, existing invoice should still show previous custom field",
+          "url": "https://app.clickup.com/t/86d24pmmr",
+          "status": "8.0 deployed",
+          "points": 0,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d24489c",
+          "name": "[PaperXB] Adjust API https://api.paper.id/api/v1/payment-api/xb/rate to be consumed by public",
+          "url": "https://app.clickup.com/t/86d24489c",
+          "status": "8.0 deployed",
+          "points": 2,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d23bb2q",
+          "name": "[Same Day Disbursement] Enable Same-Day Disbursement for Eligible Merchants",
+          "url": "https://app.clickup.com/t/86d23bb2q",
+          "status": "8.0 deployed",
+          "points": 5,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d20y62c",
+          "name": "BE",
+          "url": "https://app.clickup.com/t/86d20y62c",
+          "status": "8.0 deployed",
+          "points": 3,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d20y5zx",
+          "name": "[Payment] Adjust AMEX Fee in PayOut & PayIn",
+          "url": "https://app.clickup.com/t/86d20y5zx",
+          "status": "8.0 deployed",
+          "points": 0,
+          "is_completed": true
+        }
+      ],
+      "completed_tasks": [
+        {
+          "task_id": "86d252dpz",
+          "name": "[Same Day DIsbursement] Is same-day disbursement eligibility check",
+          "url": "https://app.clickup.com/t/86d252dpz",
+          "status": "8.0 deployed",
+          "points": 2,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d24pn12",
+          "name": "[BE]",
+          "url": "https://app.clickup.com/t/86d24pn12",
+          "status": "8.0 deployed",
+          "points": 2,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d24pmmr",
+          "name": "[Custom Field] When user edit custom field, existing invoice should still show previous custom field",
+          "url": "https://app.clickup.com/t/86d24pmmr",
+          "status": "8.0 deployed",
+          "points": 0,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d24489c",
+          "name": "[PaperXB] Adjust API https://api.paper.id/api/v1/payment-api/xb/rate to be consumed by public",
+          "url": "https://app.clickup.com/t/86d24489c",
+          "status": "8.0 deployed",
+          "points": 2,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d23bb2q",
+          "name": "[Same Day Disbursement] Enable Same-Day Disbursement for Eligible Merchants",
+          "url": "https://app.clickup.com/t/86d23bb2q",
+          "status": "8.0 deployed",
+          "points": 5,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d20y62c",
+          "name": "BE",
+          "url": "https://app.clickup.com/t/86d20y62c",
+          "status": "8.0 deployed",
+          "points": 3,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d20y5zx",
+          "name": "[Payment] Adjust AMEX Fee in PayOut & PayIn",
+          "url": "https://app.clickup.com/t/86d20y5zx",
+          "status": "8.0 deployed",
+          "points": 0,
+          "is_completed": true
+        }
+      ],
+      "carryover_in_tasks": [],
+      "carryover_out_tasks": [],
+      "sprint_start_date": "1772467200000",
+      "sprint_end_date": "1773676799999",
+      "daily_completion": {
+        "2026-03-02": 14,
+        "2026-03-03": 14,
+        "2026-03-04": 14,
+        "2026-03-05": 14,
+        "2026-03-06": 14,
+        "2026-03-07": 14,
+        "2026-03-08": 14,
+        "2026-03-09": 14,
+        "2026-03-10": 14,
+        "2026-03-11": 14,
+        "2026-03-12": 14,
+        "2026-03-13": 14,
+        "2026-03-14": 14,
+        "2026-03-15": 14
+      },
+      "sprint_reporting_url": "https://app.clickup.com/3708016/v/db/3h53g-291736"
+    },
+    {
+      "sprint_number": 54,
+      "sprint_name": "Sprint 2.54 (16/3/26 - 30/3/26)",
+      "week": 6,
+      "list_id": "901614036928",
+      "url": "https://app.clickup.com/3708016/v/li/901614036928",
+      "total_tasks": 1,
+      "completed_tasks_count": 1,
+      "points_committed": 3,
+      "carryover_in": 0,
+      "points_delivered": 3,
+      "carryover_out": 0,
+      "total_work": 3,
+      "burndown": 0,
+      "delivery_rate": 100.0,
+      "all_tasks": [
+        {
+          "task_id": "86d28vg39",
+          "name": "[PaperXB] Add new currencies in DB XB Invoice",
+          "url": "https://app.clickup.com/t/86d28vg39",
+          "status": "8.0 deployed",
+          "points": 3,
+          "is_completed": true
+        }
+      ],
+      "completed_tasks": [
+        {
+          "task_id": "86d28vg39",
+          "name": "[PaperXB] Add new currencies in DB XB Invoice",
+          "url": "https://app.clickup.com/t/86d28vg39",
+          "status": "8.0 deployed",
+          "points": 3,
+          "is_completed": true
+        }
+      ],
+      "carryover_in_tasks": [],
+      "carryover_out_tasks": [],
+      "sprint_start_date": "1773676800000",
+      "sprint_end_date": "1774886399999",
+      "daily_completion": {
+        "2026-03-16": 3,
+        "2026-03-17": 3,
+        "2026-03-18": 3,
+        "2026-03-19": 3,
+        "2026-03-20": 3,
+        "2026-03-21": 3,
+        "2026-03-22": 3,
+        "2026-03-23": 3,
+        "2026-03-24": 3,
+        "2026-03-25": 3,
+        "2026-03-26": 3,
+        "2026-03-27": 3,
+        "2026-03-28": 3,
+        "2026-03-29": 3
+      },
+      "sprint_reporting_url": "https://app.clickup.com/3708016/v/db/3h53g-294716"
+    },
+    {
+      "sprint_number": 55,
+      "sprint_name": "Sprint 2.55 (30/3/26 - 13/4/26)",
+      "week": 7,
+      "list_id": "901614250380",
+      "url": "https://app.clickup.com/3708016/v/li/901614250380",
+      "total_tasks": 5,
       "completed_tasks_count": 5,
-      "points_committed": 13,
+      "points_committed": 12,
       "carryover_in": 0,
       "points_delivered": 12,
       "carryover_out": 0,
-      "total_work": 13,
-      "burndown": 1,
-      "delivery_rate": 92.3076923076923,
+      "total_work": 12,
+      "burndown": 0,
+      "delivery_rate": 100.0,
       "all_tasks": [
         {
-          "task_id": "86d0dpc8v",
-          "name": "Adjust DPR creation to include entry point",
-          "url": "https://app.clickup.com/t/86d0dpc8v",
-          "status": "8.0 deployed",
-          "points": 1,
-          "is_completed": true
-        },
-        {
-          "task_id": "86d0ahcut",
-          "name": "[Promo Engine][BE] KYB KYC Verification Status Prameter",
-          "url": "https://app.clickup.com/t/86d0ahcut",
+          "task_id": "86d2kac9f",
+          "name": "[Bug] Bulk invoice payment request saved as Single PI causing UI sync issues and incorrect notification amounts",
+          "url": "https://app.clickup.com/t/86d2kac9f",
           "status": "8.0 deployed",
           "points": 2,
           "is_completed": true
         },
         {
-          "task_id": "86d094gjt",
-          "name": "[Improvement] Blacklist BIN per Company",
-          "url": "https://app.clickup.com/t/86d094gjt",
+          "task_id": "86d2jmknj",
+          "name": "[Bug] 500 Internal Server Error when downloading Payout Mutation Report for specific date range (October 2025)",
+          "url": "https://app.clickup.com/t/86d2jmknj",
           "status": "8.0 deployed",
-          "points": 3,
-          "is_completed": true
-        },
-        {
-          "task_id": "86d094fut",
-          "name": "[Bank Validation] Caching Solution",
-          "url": "https://app.clickup.com/t/86d094fut",
-          "status": "8.0 deployed",
-          "points": 3,
-          "is_completed": true
-        },
-        {
-          "task_id": "86d094ffy",
-          "name": "[Promo Engine] [BE] Entry Point to Cater Accurate & First Accurate Parameter",
-          "url": "https://app.clickup.com/t/86d094ffy",
-          "status": "8.0 deployed",
-          "points": 3,
-          "is_completed": true
-        },
-        {
-          "task_id": "86czz4w43",
-          "name": "[PaperXB] Alipay - Notification for Email",
-          "url": "https://app.clickup.com/t/86czz4w43",
-          "status": "9.0 won't do",
           "points": 1,
-          "is_completed": false
+          "is_completed": true
+        },
+        {
+          "task_id": "86d2j932b",
+          "name": "[Bug] PYOR Disbursement Mismatch due to Race Condition between User Edit and Payment Callback",
+          "url": "https://app.clickup.com/t/86d2j932b",
+          "status": "8.0 deployed",
+          "points": 2,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d2furvg",
+          "name": "[PaperXB] Regex Beneficiary",
+          "url": "https://app.clickup.com/t/86d2furvg",
+          "status": "8.0 deployed",
+          "points": 2,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d20yam7",
+          "name": "[WA Integration] Change from Ivosight to Halosis",
+          "url": "https://app.clickup.com/t/86d20yam7",
+          "status": "8.0 deployed",
+          "points": 5,
+          "is_completed": true
         }
       ],
       "completed_tasks": [
         {
-          "task_id": "86d0dpc8v",
-          "name": "Adjust DPR creation to include entry point",
-          "url": "https://app.clickup.com/t/86d0dpc8v",
-          "status": "8.0 deployed",
-          "points": 1,
-          "is_completed": true
-        },
-        {
-          "task_id": "86d0ahcut",
-          "name": "[Promo Engine][BE] KYB KYC Verification Status Prameter",
-          "url": "https://app.clickup.com/t/86d0ahcut",
+          "task_id": "86d2kac9f",
+          "name": "[Bug] Bulk invoice payment request saved as Single PI causing UI sync issues and incorrect notification amounts",
+          "url": "https://app.clickup.com/t/86d2kac9f",
           "status": "8.0 deployed",
           "points": 2,
           "is_completed": true
         },
         {
-          "task_id": "86d094gjt",
-          "name": "[Improvement] Blacklist BIN per Company",
-          "url": "https://app.clickup.com/t/86d094gjt",
+          "task_id": "86d2jmknj",
+          "name": "[Bug] 500 Internal Server Error when downloading Payout Mutation Report for specific date range (October 2025)",
+          "url": "https://app.clickup.com/t/86d2jmknj",
           "status": "8.0 deployed",
-          "points": 3,
+          "points": 1,
           "is_completed": true
         },
         {
-          "task_id": "86d094fut",
-          "name": "[Bank Validation] Caching Solution",
-          "url": "https://app.clickup.com/t/86d094fut",
+          "task_id": "86d2j932b",
+          "name": "[Bug] PYOR Disbursement Mismatch due to Race Condition between User Edit and Payment Callback",
+          "url": "https://app.clickup.com/t/86d2j932b",
           "status": "8.0 deployed",
-          "points": 3,
+          "points": 2,
           "is_completed": true
         },
         {
-          "task_id": "86d094ffy",
-          "name": "[Promo Engine] [BE] Entry Point to Cater Accurate & First Accurate Parameter",
-          "url": "https://app.clickup.com/t/86d094ffy",
+          "task_id": "86d2furvg",
+          "name": "[PaperXB] Regex Beneficiary",
+          "url": "https://app.clickup.com/t/86d2furvg",
           "status": "8.0 deployed",
-          "points": 3,
+          "points": 2,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d20yam7",
+          "name": "[WA Integration] Change from Ivosight to Halosis",
+          "url": "https://app.clickup.com/t/86d20yam7",
+          "status": "8.0 deployed",
+          "points": 5,
           "is_completed": true
         }
       ],
       "carryover_in_tasks": [],
       "carryover_out_tasks": [],
-      "sprint_start_date": "1757872800000",
-      "sprint_end_date": "1759082399999",
+      "sprint_start_date": "1774886400000",
+      "sprint_end_date": "1776095999999",
       "daily_completion": {
-        "2025-09-15": 13,
-        "2025-09-16": 13,
-        "2025-09-17": 13,
-        "2025-09-18": 13,
-        "2025-09-19": 13,
-        "2025-09-20": 13,
-        "2025-09-21": 13,
-        "2025-09-22": 13,
-        "2025-09-23": 13,
-        "2025-09-24": 13,
-        "2025-09-25": 10,
-        "2025-09-26": 7,
-        "2025-09-27": 5,
-        "2025-09-28": 5
+        "2026-03-30": 12,
+        "2026-03-31": 12,
+        "2026-04-01": 12,
+        "2026-04-02": 12,
+        "2026-04-03": 12,
+        "2026-04-04": 12,
+        "2026-04-05": 12,
+        "2026-04-06": 12,
+        "2026-04-07": 10,
+        "2026-04-08": 10,
+        "2026-04-09": 10,
+        "2026-04-10": 10,
+        "2026-04-11": 10,
+        "2026-04-12": 10
       },
-      "sprint_reporting_url": "https://app.clickup.com/3708016/v/db/3h53g-261776"
+      "sprint_reporting_url": "https://app.clickup.com/3708016/v/db/3h53g-296196"
     },
     {
-      "sprint_number": 49,
-      "sprint_name": "Sprint 49 (Payment)",
-      "week": 42,
-      "list_id": "901611303982",
-      "url": "https://app.clickup.com/3708016/v/li/901611303982",
+      "sprint_number": 56,
+      "sprint_name": "Sprint 2.56 (13/4/26 - 27/4/26)",
+      "week": 8,
+      "list_id": "901614370317",
+      "url": "https://app.clickup.com/3708016/v/li/901614370317",
       "total_tasks": 8,
       "completed_tasks_count": 8,
       "points_committed": 17,
@@ -731,303 +1062,166 @@
       "delivery_rate": 100.0,
       "all_tasks": [
         {
-          "task_id": "86d0gbvbn",
-          "name": "[BE] Update Whitelisted Company for MID Routing & Custom Fee 1.3%",
-          "url": "https://app.clickup.com/t/86d0gbvbn",
+          "task_id": "86d2qcr9t",
+          "name": "[Bug] Batch payment fails to process multiple Pivot SoF records",
+          "url": "https://app.clickup.com/t/86d2qcr9t",
+          "status": "8.0 deployed",
+          "points": 2,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d2q9h25",
+          "name": "[Bug] Internal Server Error (UFO) on Create Remitter Data due to State/City Mapping Mismatch",
+          "url": "https://app.clickup.com/t/86d2q9h25",
           "status": "8.0 deployed",
           "points": 1,
           "is_completed": true
         },
         {
-          "task_id": "86d0f1ztk",
-          "name": "[PG Routing] As a System I want to be Able to Set the Routing Based on the Company ID and BIN",
-          "url": "https://app.clickup.com/t/86d0f1ztk",
-          "status": "8.0 deployed",
-          "points": 3,
-          "is_completed": true
-        },
-        {
-          "task_id": "86d0efvyc",
-          "name": "[PaperXB] Delete all remitter when user change their company type",
-          "url": "https://app.clickup.com/t/86d0efvyc",
+          "task_id": "86d2pbt6v",
+          "name": "[Investigate] Cicilan Doku Error",
+          "url": "https://app.clickup.com/t/86d2pbt6v",
           "status": "8.0 deployed",
           "points": 2,
           "is_completed": true
         },
         {
-          "task_id": "86d0edk1x",
-          "name": "[Finops] Validate Disbursements",
-          "url": "https://app.clickup.com/t/86d0edk1x",
+          "task_id": "86d2nck45",
+          "name": "[Bug] BCA Manual - Automated payment reconciliation applied to wrong invoice due to duplicate unique code and identical amount",
+          "url": "https://app.clickup.com/t/86d2nck45",
           "status": "8.0 deployed",
           "points": 3,
           "is_completed": true
         },
         {
-          "task_id": "86d0edb7k",
-          "name": "[Finops] Handle Xendit Success/Failed Callback",
-          "url": "https://app.clickup.com/t/86d0edb7k",
-          "status": "8.0 deployed",
-          "points": 2,
-          "is_completed": true
-        },
-        {
-          "task_id": "86d0eda9k",
-          "name": "[Finops] Process Single Disbursement + In Progress Callback",
-          "url": "https://app.clickup.com/t/86d0eda9k",
+          "task_id": "86d2kune4",
+          "name": "[SI List Download] Add Status Document on XLS from Downloaded SI List",
+          "url": "https://app.clickup.com/t/86d2kune4",
           "status": "8.0 deployed",
           "points": 3,
           "is_completed": true
         },
         {
-          "task_id": "86d0eda42",
-          "name": "[Finops] Internal Batch Disburse API",
-          "url": "https://app.clickup.com/t/86d0eda42",
+          "task_id": "86d266mv5",
+          "name": "[BE] adjust downloaded files and adjust api to be able to sort reference no",
+          "url": "https://app.clickup.com/t/86d266mv5",
           "status": "8.0 deployed",
-          "points": 2,
+          "points": 3,
           "is_completed": true
         },
         {
-          "task_id": "86d0e6dw8",
-          "name": "[Copywriting] Replace \"Disbursement\" in Pay In into \"Withdrawal\"",
-          "url": "https://app.clickup.com/t/86d0e6dw8",
+          "task_id": "86d266mnn",
+          "name": "[FE]",
+          "url": "https://app.clickup.com/t/86d266mnn",
           "status": "8.0 deployed",
-          "points": 1,
+          "points": 3,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d266mgd",
+          "name": "[Hygiene] Add Reference No in Recap Pembayaran",
+          "url": "https://app.clickup.com/t/86d266mgd",
+          "status": "8.0 deployed",
+          "points": 0,
           "is_completed": true
         }
       ],
       "completed_tasks": [
         {
-          "task_id": "86d0gbvbn",
-          "name": "[BE] Update Whitelisted Company for MID Routing & Custom Fee 1.3%",
-          "url": "https://app.clickup.com/t/86d0gbvbn",
+          "task_id": "86d2qcr9t",
+          "name": "[Bug] Batch payment fails to process multiple Pivot SoF records",
+          "url": "https://app.clickup.com/t/86d2qcr9t",
+          "status": "8.0 deployed",
+          "points": 2,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d2q9h25",
+          "name": "[Bug] Internal Server Error (UFO) on Create Remitter Data due to State/City Mapping Mismatch",
+          "url": "https://app.clickup.com/t/86d2q9h25",
           "status": "8.0 deployed",
           "points": 1,
           "is_completed": true
         },
         {
-          "task_id": "86d0f1ztk",
-          "name": "[PG Routing] As a System I want to be Able to Set the Routing Based on the Company ID and BIN",
-          "url": "https://app.clickup.com/t/86d0f1ztk",
-          "status": "8.0 deployed",
-          "points": 3,
-          "is_completed": true
-        },
-        {
-          "task_id": "86d0efvyc",
-          "name": "[PaperXB] Delete all remitter when user change their company type",
-          "url": "https://app.clickup.com/t/86d0efvyc",
+          "task_id": "86d2pbt6v",
+          "name": "[Investigate] Cicilan Doku Error",
+          "url": "https://app.clickup.com/t/86d2pbt6v",
           "status": "8.0 deployed",
           "points": 2,
           "is_completed": true
         },
         {
-          "task_id": "86d0edk1x",
-          "name": "[Finops] Validate Disbursements",
-          "url": "https://app.clickup.com/t/86d0edk1x",
+          "task_id": "86d2nck45",
+          "name": "[Bug] BCA Manual - Automated payment reconciliation applied to wrong invoice due to duplicate unique code and identical amount",
+          "url": "https://app.clickup.com/t/86d2nck45",
           "status": "8.0 deployed",
           "points": 3,
           "is_completed": true
         },
         {
-          "task_id": "86d0edb7k",
-          "name": "[Finops] Handle Xendit Success/Failed Callback",
-          "url": "https://app.clickup.com/t/86d0edb7k",
-          "status": "8.0 deployed",
-          "points": 2,
-          "is_completed": true
-        },
-        {
-          "task_id": "86d0eda9k",
-          "name": "[Finops] Process Single Disbursement + In Progress Callback",
-          "url": "https://app.clickup.com/t/86d0eda9k",
+          "task_id": "86d2kune4",
+          "name": "[SI List Download] Add Status Document on XLS from Downloaded SI List",
+          "url": "https://app.clickup.com/t/86d2kune4",
           "status": "8.0 deployed",
           "points": 3,
           "is_completed": true
         },
         {
-          "task_id": "86d0eda42",
-          "name": "[Finops] Internal Batch Disburse API",
-          "url": "https://app.clickup.com/t/86d0eda42",
+          "task_id": "86d266mv5",
+          "name": "[BE] adjust downloaded files and adjust api to be able to sort reference no",
+          "url": "https://app.clickup.com/t/86d266mv5",
           "status": "8.0 deployed",
-          "points": 2,
+          "points": 3,
           "is_completed": true
         },
         {
-          "task_id": "86d0e6dw8",
-          "name": "[Copywriting] Replace \"Disbursement\" in Pay In into \"Withdrawal\"",
-          "url": "https://app.clickup.com/t/86d0e6dw8",
+          "task_id": "86d266mnn",
+          "name": "[FE]",
+          "url": "https://app.clickup.com/t/86d266mnn",
           "status": "8.0 deployed",
-          "points": 1,
+          "points": 3,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d266mgd",
+          "name": "[Hygiene] Add Reference No in Recap Pembayaran",
+          "url": "https://app.clickup.com/t/86d266mgd",
+          "status": "8.0 deployed",
+          "points": 0,
           "is_completed": true
         }
       ],
       "carryover_in_tasks": [],
       "carryover_out_tasks": [],
-      "sprint_start_date": "1759082400000",
-      "sprint_end_date": "1760291999999",
+      "sprint_start_date": "1776096000000",
+      "sprint_end_date": "1777305599999",
       "daily_completion": {
-        "2025-09-29": 17,
-        "2025-09-30": 17,
-        "2025-10-01": 17,
-        "2025-10-02": 17,
-        "2025-10-03": 13,
-        "2025-10-04": 13,
-        "2025-10-05": 13,
-        "2025-10-06": 13,
-        "2025-10-07": 11,
-        "2025-10-08": 11,
-        "2025-10-09": 11,
-        "2025-10-10": 11,
-        "2025-10-11": 11,
-        "2025-10-12": 11
+        "2026-04-13": 17,
+        "2026-04-14": 17,
+        "2026-04-15": 17,
+        "2026-04-16": 17,
+        "2026-04-17": 17,
+        "2026-04-18": 17,
+        "2026-04-19": 17,
+        "2026-04-20": 17,
+        "2026-04-21": 17,
+        "2026-04-22": 15,
+        "2026-04-23": 15,
+        "2026-04-24": 15,
+        "2026-04-25": 15,
+        "2026-04-26": 15
       },
-      "sprint_reporting_url": "https://app.clickup.com/3708016/v/db/3h53g-264736"
+      "sprint_reporting_url": "https://app.clickup.com/3708016/v/db/3h53g-297256"
     },
     {
-      "sprint_number": 50,
-      "sprint_name": "Sprint 50 (Payment)",
-      "week": 43,
-      "list_id": "901611529803",
-      "url": "https://app.clickup.com/3708016/v/li/901611529803",
-      "total_tasks": 6,
-      "completed_tasks_count": 6,
-      "points_committed": 15,
-      "carryover_in": 0,
-      "points_delivered": 15,
-      "carryover_out": 0,
-      "total_work": 15,
-      "burndown": 0,
-      "delivery_rate": 100.0,
-      "all_tasks": [
-        {
-          "task_id": "86d0kmb0y",
-          "name": "[Backend] Check backend to backend Validate Promotion When create DPT",
-          "url": "https://app.clickup.com/t/86d0kmb0y",
-          "status": "8.0 deployed",
-          "points": 1,
-          "is_completed": true
-        },
-        {
-          "task_id": "86d0k5rg1",
-          "name": "[Backend] - Handle Confirm Response from Pivot, Return 400 Should be Failed the Transactions",
-          "url": "https://app.clickup.com/t/86d0k5rg1",
-          "status": "8.0 deployed",
-          "points": 3,
-          "is_completed": true
-        },
-        {
-          "task_id": "86d0j88x4",
-          "name": "[Backend]",
-          "url": "https://app.clickup.com/t/86d0j88x4",
-          "status": "8.0 deployed",
-          "points": 3,
-          "is_completed": true
-        },
-        {
-          "task_id": "86d0edbbw",
-          "name": "[Finops] Handle Pivot (Bulk) Success/Failed Callback",
-          "url": "https://app.clickup.com/t/86d0edbbw",
-          "status": "8.0 deployed",
-          "points": 2,
-          "is_completed": true
-        },
-        {
-          "task_id": "86d0edak4",
-          "name": "[Finops] Process Bulk Disbursement + In Progress Callback",
-          "url": "https://app.clickup.com/t/86d0edak4",
-          "status": "8.0 deployed",
-          "points": 3,
-          "is_completed": true
-        },
-        {
-          "task_id": "86d0ed9wr",
-          "name": "[Finops] Integrate Pivot Local Disbursements",
-          "url": "https://app.clickup.com/t/86d0ed9wr",
-          "status": "8.0 deployed",
-          "points": 3,
-          "is_completed": true
-        }
-      ],
-      "completed_tasks": [
-        {
-          "task_id": "86d0kmb0y",
-          "name": "[Backend] Check backend to backend Validate Promotion When create DPT",
-          "url": "https://app.clickup.com/t/86d0kmb0y",
-          "status": "8.0 deployed",
-          "points": 1,
-          "is_completed": true
-        },
-        {
-          "task_id": "86d0k5rg1",
-          "name": "[Backend] - Handle Confirm Response from Pivot, Return 400 Should be Failed the Transactions",
-          "url": "https://app.clickup.com/t/86d0k5rg1",
-          "status": "8.0 deployed",
-          "points": 3,
-          "is_completed": true
-        },
-        {
-          "task_id": "86d0j88x4",
-          "name": "[Backend]",
-          "url": "https://app.clickup.com/t/86d0j88x4",
-          "status": "8.0 deployed",
-          "points": 3,
-          "is_completed": true
-        },
-        {
-          "task_id": "86d0edbbw",
-          "name": "[Finops] Handle Pivot (Bulk) Success/Failed Callback",
-          "url": "https://app.clickup.com/t/86d0edbbw",
-          "status": "8.0 deployed",
-          "points": 2,
-          "is_completed": true
-        },
-        {
-          "task_id": "86d0edak4",
-          "name": "[Finops] Process Bulk Disbursement + In Progress Callback",
-          "url": "https://app.clickup.com/t/86d0edak4",
-          "status": "8.0 deployed",
-          "points": 3,
-          "is_completed": true
-        },
-        {
-          "task_id": "86d0ed9wr",
-          "name": "[Finops] Integrate Pivot Local Disbursements",
-          "url": "https://app.clickup.com/t/86d0ed9wr",
-          "status": "8.0 deployed",
-          "points": 3,
-          "is_completed": true
-        }
-      ],
-      "carryover_in_tasks": [],
-      "carryover_out_tasks": [],
-      "sprint_start_date": "1760292000000",
-      "sprint_end_date": "1761501599999",
-      "daily_completion": {
-        "2025-10-13": 15,
-        "2025-10-14": 15,
-        "2025-10-15": 12,
-        "2025-10-16": 12,
-        "2025-10-17": 12,
-        "2025-10-18": 9,
-        "2025-10-19": 9,
-        "2025-10-20": 9,
-        "2025-10-21": 12,
-        "2025-10-22": 6,
-        "2025-10-23": 9,
-        "2025-10-24": 9,
-        "2025-10-25": 9,
-        "2025-10-26": 9
-      },
-      "sprint_reporting_url": "https://app.clickup.com/3708016/v/db/3h53g-267836"
-    },
-    {
-      "sprint_number": 1,
-      "sprint_name": "Sprint 1 (RnG)",
-      "week": 45,
-      "list_id": "901611807487",
-      "url": "https://app.clickup.com/3708016/v/li/901611807487",
-      "total_tasks": 5,
-      "completed_tasks_count": 5,
+      "sprint_number": 57,
+      "sprint_name": "Sprint 2.57 (27/4/26 - 11/5/26)",
+      "week": 9,
+      "list_id": "901614676113",
+      "url": "https://app.clickup.com/3708016/v/li/901614676113",
+      "total_tasks": 4,
+      "completed_tasks_count": 4,
       "points_committed": 14,
       "carryover_in": 0,
       "points_delivered": 14,
@@ -1037,41 +1231,33 @@
       "delivery_rate": 100.0,
       "all_tasks": [
         {
-          "task_id": "86d0xxvma",
-          "name": "[Backend] - Alert When Pivot Transaction Threshold is Reached",
-          "url": "https://app.clickup.com/t/86d0xxvma",
+          "task_id": "86d2ufpm3",
+          "name": "[Payment] Create a User Flag to Hide the Inactive Payment Method",
+          "url": "https://app.clickup.com/t/86d2ufpm3",
           "status": "8.0 deployed",
-          "points": 2,
+          "points": 3,
           "is_completed": true
         },
         {
-          "task_id": "86d0vvrw2",
-          "name": "[PaperXB][BE]Supplier Info PI - Validate only KYB user to pay CNY and min 10 CNY ",
-          "url": "https://app.clickup.com/t/86d0vvrw2",
+          "task_id": "86d2u8w75",
+          "name": "fix(pivot-disbursement): process valid items when partial validation or idempotency failure",
+          "url": "https://app.clickup.com/t/86d2u8w75",
           "status": "8.0 deployed",
-          "points": 2,
+          "points": 3,
           "is_completed": true
         },
         {
-          "task_id": "86d0tmuab",
-          "name": "[BE] Notifications for batch 1A finOps disbursements",
-          "url": "https://app.clickup.com/t/86d0tmuab",
-          "status": "8.0 deployed",
-          "points": 2,
-          "is_completed": true
-        },
-        {
-          "task_id": "86d0tmnhf",
-          "name": "[Transaction History][BE] Generated PDF design requirements for payOut",
-          "url": "https://app.clickup.com/t/86d0tmnhf",
+          "task_id": "86d2tty1d",
+          "name": "[BE] Change Beneficiary Account Details in PID When Changed from Finops Dashboard",
+          "url": "https://app.clickup.com/t/86d2tty1d",
           "status": "8.0 deployed",
           "points": 5,
           "is_completed": true
         },
         {
-          "task_id": "86d0pt8c8",
-          "name": "[PaperXB][BE] China Banks - AA Non-Individual company user IWT do the transactions to my Supplier's China Bank Account",
-          "url": "https://app.clickup.com/t/86d0pt8c8",
+          "task_id": "86d2tkvth",
+          "name": "[BE] Add a new field in DPR \"is_refunded\"",
+          "url": "https://app.clickup.com/t/86d2tkvth",
           "status": "8.0 deployed",
           "points": 3,
           "is_completed": true
@@ -1079,41 +1265,33 @@
       ],
       "completed_tasks": [
         {
-          "task_id": "86d0xxvma",
-          "name": "[Backend] - Alert When Pivot Transaction Threshold is Reached",
-          "url": "https://app.clickup.com/t/86d0xxvma",
+          "task_id": "86d2ufpm3",
+          "name": "[Payment] Create a User Flag to Hide the Inactive Payment Method",
+          "url": "https://app.clickup.com/t/86d2ufpm3",
           "status": "8.0 deployed",
-          "points": 2,
+          "points": 3,
           "is_completed": true
         },
         {
-          "task_id": "86d0vvrw2",
-          "name": "[PaperXB][BE]Supplier Info PI - Validate only KYB user to pay CNY and min 10 CNY ",
-          "url": "https://app.clickup.com/t/86d0vvrw2",
+          "task_id": "86d2u8w75",
+          "name": "fix(pivot-disbursement): process valid items when partial validation or idempotency failure",
+          "url": "https://app.clickup.com/t/86d2u8w75",
           "status": "8.0 deployed",
-          "points": 2,
+          "points": 3,
           "is_completed": true
         },
         {
-          "task_id": "86d0tmuab",
-          "name": "[BE] Notifications for batch 1A finOps disbursements",
-          "url": "https://app.clickup.com/t/86d0tmuab",
-          "status": "8.0 deployed",
-          "points": 2,
-          "is_completed": true
-        },
-        {
-          "task_id": "86d0tmnhf",
-          "name": "[Transaction History][BE] Generated PDF design requirements for payOut",
-          "url": "https://app.clickup.com/t/86d0tmnhf",
+          "task_id": "86d2tty1d",
+          "name": "[BE] Change Beneficiary Account Details in PID When Changed from Finops Dashboard",
+          "url": "https://app.clickup.com/t/86d2tty1d",
           "status": "8.0 deployed",
           "points": 5,
           "is_completed": true
         },
         {
-          "task_id": "86d0pt8c8",
-          "name": "[PaperXB][BE] China Banks - AA Non-Individual company user IWT do the transactions to my Supplier's China Bank Account",
-          "url": "https://app.clickup.com/t/86d0pt8c8",
+          "task_id": "86d2tkvth",
+          "name": "[BE] Add a new field in DPR \"is_refunded\"",
+          "url": "https://app.clickup.com/t/86d2tkvth",
           "status": "8.0 deployed",
           "points": 3,
           "is_completed": true
@@ -1121,476 +1299,565 @@
       ],
       "carryover_in_tasks": [],
       "carryover_out_tasks": [],
-      "sprint_start_date": "1762740000000",
-      "sprint_end_date": "1763949599999",
+      "sprint_start_date": "1777305600000",
+      "sprint_end_date": "1778515199999",
       "daily_completion": {
-        "2025-11-10": 14,
-        "2025-11-11": 14,
-        "2025-11-12": 14,
-        "2025-11-13": 14,
-        "2025-11-14": 14,
-        "2025-11-15": 14,
-        "2025-11-16": 14,
-        "2025-11-17": 14,
-        "2025-11-18": 14,
-        "2025-11-19": 14,
-        "2025-11-20": 12,
-        "2025-11-21": 12,
-        "2025-11-22": 12,
-        "2025-11-23": 12
+        "2026-04-27": 14,
+        "2026-04-28": 14,
+        "2026-04-29": 14,
+        "2026-04-30": 14,
+        "2026-05-01": 14,
+        "2026-05-02": 14,
+        "2026-05-03": 14,
+        "2026-05-04": 14,
+        "2026-05-05": 11,
+        "2026-05-06": 11,
+        "2026-05-07": 11,
+        "2026-05-08": 3,
+        "2026-05-09": 3,
+        "2026-05-10": 3
       },
-      "sprint_reporting_url": "https://app.clickup.com/3708016/v/db/3h53g-271756"
+      "sprint_reporting_url": "https://app.clickup.com/3708016/v/db/3h53g-300096"
     },
     {
-      "sprint_number": 2,
-      "sprint_name": "Sprint 2 (RnG)",
-      "week": 46,
-      "list_id": "901612239615",
-      "url": "https://app.clickup.com/3708016/v/li/901612239615",
-      "total_tasks": 8,
-      "completed_tasks_count": 7,
-      "points_committed": 13,
+      "sprint_number": 58,
+      "sprint_name": "Sprint 2.58 (11/5/26 - 25/5/26)",
+      "week": 10,
+      "list_id": "901614810029",
+      "url": "https://app.clickup.com/3708016/v/li/901614810029",
+      "total_tasks": 9,
+      "completed_tasks_count": 9,
+      "points_committed": 14,
       "carryover_in": 0,
-      "points_delivered": 10,
+      "points_delivered": 14,
       "carryover_out": 0,
-      "total_work": 13,
-      "burndown": 3,
-      "delivery_rate": 76.92307692307693,
-      "all_tasks": [
-        {
-          "task_id": "86d1223c8",
-          "name": "Refund Charged CC",
-          "url": "https://app.clickup.com/t/86d1223c8",
-          "status": "8.0 deployed",
-          "points": 0,
-          "is_completed": true
-        },
-        {
-          "task_id": "86d1223bd",
-          "name": "Cancel Auth",
-          "url": "https://app.clickup.com/t/86d1223bd",
-          "status": "8.0 deployed",
-          "points": 0,
-          "is_completed": true
-        },
-        {
-          "task_id": "86d10hkcy",
-          "name": "[Backend] Multicards - Cancel API",
-          "url": "https://app.clickup.com/t/86d10hkcy",
-          "status": "8.0 deployed",
-          "points": 5,
-          "is_completed": true
-        },
-        {
-          "task_id": "86d0x1xf0",
-          "name": "[Accurate] Error message improvement for partner phone number and email field validations",
-          "url": "https://app.clickup.com/t/86d0x1xf0",
-          "status": "9.0 won't do",
-          "points": 3,
-          "is_completed": false
-        },
-        {
-          "task_id": "86d0ed0p3",
-          "name": "[Backend] - Add notification to notifier tab if DPR status updated to expired",
-          "url": "https://app.clickup.com/t/86d0ed0p3",
-          "status": "8.0 deployed",
-          "points": 1,
-          "is_completed": true
-        },
-        {
-          "task_id": "86d0ed0d6",
-          "name": "[Backend] - Add new cron job to check and update DPR status to expired if pending after 72 hours",
-          "url": "https://app.clickup.com/t/86d0ed0d6",
-          "status": "8.0 deployed",
-          "points": 2,
-          "is_completed": true
-        },
-        {
-          "task_id": "86d0ecxzv",
-          "name": "[Multicards Payment] AA System IWT Have Cron Job to Handle Expired DPR in Multiple Card Payment When DPR Status still in Pending Status After 72 Hours (Configurable) Then cancel All DPT Auth and Set DPR Status to Expired",
-          "url": "https://app.clickup.com/t/86d0ecxzv",
-          "status": "8.0 deployed",
-          "points": 0,
-          "is_completed": true
-        },
-        {
-          "task_id": "86czu65d2",
-          "name": "[Tech/Data][Payment BE] As finops, I want the disbursement requests to various PG SoFs to be automatically processed after approved",
-          "url": "https://app.clickup.com/t/86czu65d2",
-          "status": "8.0 deployed",
-          "points": 2,
-          "is_completed": true
-        }
-      ],
-      "completed_tasks": [
-        {
-          "task_id": "86d1223c8",
-          "name": "Refund Charged CC",
-          "url": "https://app.clickup.com/t/86d1223c8",
-          "status": "8.0 deployed",
-          "points": 0,
-          "is_completed": true
-        },
-        {
-          "task_id": "86d1223bd",
-          "name": "Cancel Auth",
-          "url": "https://app.clickup.com/t/86d1223bd",
-          "status": "8.0 deployed",
-          "points": 0,
-          "is_completed": true
-        },
-        {
-          "task_id": "86d10hkcy",
-          "name": "[Backend] Multicards - Cancel API",
-          "url": "https://app.clickup.com/t/86d10hkcy",
-          "status": "8.0 deployed",
-          "points": 5,
-          "is_completed": true
-        },
-        {
-          "task_id": "86d0ed0p3",
-          "name": "[Backend] - Add notification to notifier tab if DPR status updated to expired",
-          "url": "https://app.clickup.com/t/86d0ed0p3",
-          "status": "8.0 deployed",
-          "points": 1,
-          "is_completed": true
-        },
-        {
-          "task_id": "86d0ed0d6",
-          "name": "[Backend] - Add new cron job to check and update DPR status to expired if pending after 72 hours",
-          "url": "https://app.clickup.com/t/86d0ed0d6",
-          "status": "8.0 deployed",
-          "points": 2,
-          "is_completed": true
-        },
-        {
-          "task_id": "86d0ecxzv",
-          "name": "[Multicards Payment] AA System IWT Have Cron Job to Handle Expired DPR in Multiple Card Payment When DPR Status still in Pending Status After 72 Hours (Configurable) Then cancel All DPT Auth and Set DPR Status to Expired",
-          "url": "https://app.clickup.com/t/86d0ecxzv",
-          "status": "8.0 deployed",
-          "points": 0,
-          "is_completed": true
-        },
-        {
-          "task_id": "86czu65d2",
-          "name": "[Tech/Data][Payment BE] As finops, I want the disbursement requests to various PG SoFs to be automatically processed after approved",
-          "url": "https://app.clickup.com/t/86czu65d2",
-          "status": "8.0 deployed",
-          "points": 2,
-          "is_completed": true
-        }
-      ],
-      "carryover_in_tasks": [],
-      "carryover_out_tasks": [],
-      "sprint_start_date": "1764000000000",
-      "sprint_end_date": "1765209599999",
-      "daily_completion": {
-        "2025-11-24": 13,
-        "2025-11-25": 13,
-        "2025-11-26": 13,
-        "2025-11-27": 13,
-        "2025-11-28": 13,
-        "2025-11-29": 13,
-        "2025-11-30": 13,
-        "2025-12-01": 13,
-        "2025-12-02": 13,
-        "2025-12-03": 13,
-        "2025-12-04": 13,
-        "2025-12-05": 13,
-        "2025-12-06": 13,
-        "2025-12-07": 13
-      },
-      "sprint_reporting_url": "https://app.clickup.com/3708016/v/db/3h53g-276336"
-    },
-    {
-      "sprint_number": 3,
-      "sprint_name": "Sprint 3 (RnG)",
-      "week": 47,
-      "list_id": "901612467459",
-      "url": "https://app.clickup.com/3708016/v/li/901612467459",
-      "total_tasks": 7,
-      "completed_tasks_count": 7,
-      "points_committed": 16,
-      "carryover_in": 0,
-      "points_delivered": 16,
-      "carryover_out": 0,
-      "total_work": 16,
+      "total_work": 14,
       "burndown": 0,
       "delivery_rate": 100.0,
       "all_tasks": [
         {
-          "task_id": "86d177rkz",
+          "task_id": "86d3159qx",
+          "name": "[FinOps] Feedback batching",
+          "url": "https://app.clickup.com/t/86d3159qx",
+          "status": "8.0 deployed",
+          "points": 2,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d2z9e3p",
+          "name": "refactor: xendit CallbackLogging \u2014 strategy pattern + batch updates",
+          "url": "https://app.clickup.com/t/86d2z9e3p",
+          "status": "8.0 deployed",
+          "points": 2,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d2ymuu5",
           "name": "[BE]",
-          "url": "https://app.clickup.com/t/86d177rkz",
+          "url": "https://app.clickup.com/t/86d2ymuu5",
           "status": "8.0 deployed",
           "points": 2,
           "is_completed": true
         },
         {
-          "task_id": "86d177e2w",
-          "name": "[Tech/Data][Payment BE] As finops, I want the disbursement requests to various PG SoFs to be automatically processed after approved",
-          "url": "https://app.clickup.com/t/86d177e2w",
+          "task_id": "86d2ymn7e",
+          "name": "[FE]",
+          "url": "https://app.clickup.com/t/86d2ymn7e",
           "status": "8.0 deployed",
           "points": 2,
           "is_completed": true
         },
         {
-          "task_id": "86d17210m",
-          "name": "[Pivot Integration] Add X_merchant_id & MID Label for the Unified Payment CC",
-          "url": "https://app.clickup.com/t/86d17210m",
+          "task_id": "86d2ymn5z",
+          "name": "[BE]",
+          "url": "https://app.clickup.com/t/86d2ymn5z",
           "status": "8.0 deployed",
           "points": 3,
           "is_completed": true
         },
         {
-          "task_id": "86d15435h",
-          "name": "[BE][PaperXB-KRW] Save beneficiary email bank account & send bankCode when create payment session",
-          "url": "https://app.clickup.com/t/86d15435h",
+          "task_id": "86d2xmu4j",
+          "name": "[Feature Flag] Add Internal Dashboard Toggle for Sales Receipt Date Locking Feature Flag",
+          "url": "https://app.clickup.com/t/86d2xmu4j",
+          "status": "8.0 deployed",
+          "points": 0,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d2x6n1k",
+          "name": "[Sales receipt] Add Backend Flag to Lock Sales Receipt Dates to Today Only (Prevent Backdating)",
+          "url": "https://app.clickup.com/t/86d2x6n1k",
           "status": "8.0 deployed",
           "points": 3,
           "is_completed": true
         },
         {
-          "task_id": "86d153z35",
-          "name": "[PaperXB][BE] Hongkong CNH -  Default Currency & Minum Amount for XB Enums",
-          "url": "https://app.clickup.com/t/86d153z35",
+          "task_id": "86d2ndqe4",
+          "name": "[Bug] [Document Labeling] Improve Error Message for Duplicate Label Category Name",
+          "url": "https://app.clickup.com/t/86d2ndqe4",
           "status": "8.0 deployed",
-          "points": 2,
+          "points": 0,
           "is_completed": true
         },
         {
-          "task_id": "86d153z2h",
-          "name": "[PaperXB][BE] Hongkong CNH - AA Non-Individual company user IWT do the transactions to my Supplier's Hongkong Bank Account",
-          "url": "https://app.clickup.com/t/86d153z2h",
+          "task_id": "86d2mb3ep",
+          "name": "[Promo] Create the Blacklist Company ID Feature in Promo Code Level",
+          "url": "https://app.clickup.com/t/86d2mb3ep",
           "status": "8.0 deployed",
-          "points": 1,
-          "is_completed": true
-        },
-        {
-          "task_id": "86d131urr",
-          "name": "[Foreign CC][BE] As paper internal user, I want to see incoming foreign CC registration requests from paper users",
-          "url": "https://app.clickup.com/t/86d131urr",
-          "status": "8.0 deployed",
-          "points": 3,
+          "points": 0,
           "is_completed": true
         }
       ],
       "completed_tasks": [
         {
-          "task_id": "86d177rkz",
+          "task_id": "86d3159qx",
+          "name": "[FinOps] Feedback batching",
+          "url": "https://app.clickup.com/t/86d3159qx",
+          "status": "8.0 deployed",
+          "points": 2,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d2z9e3p",
+          "name": "refactor: xendit CallbackLogging \u2014 strategy pattern + batch updates",
+          "url": "https://app.clickup.com/t/86d2z9e3p",
+          "status": "8.0 deployed",
+          "points": 2,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d2ymuu5",
           "name": "[BE]",
-          "url": "https://app.clickup.com/t/86d177rkz",
+          "url": "https://app.clickup.com/t/86d2ymuu5",
           "status": "8.0 deployed",
           "points": 2,
           "is_completed": true
         },
         {
-          "task_id": "86d177e2w",
-          "name": "[Tech/Data][Payment BE] As finops, I want the disbursement requests to various PG SoFs to be automatically processed after approved",
-          "url": "https://app.clickup.com/t/86d177e2w",
+          "task_id": "86d2ymn7e",
+          "name": "[FE]",
+          "url": "https://app.clickup.com/t/86d2ymn7e",
           "status": "8.0 deployed",
           "points": 2,
           "is_completed": true
         },
         {
-          "task_id": "86d17210m",
-          "name": "[Pivot Integration] Add X_merchant_id & MID Label for the Unified Payment CC",
-          "url": "https://app.clickup.com/t/86d17210m",
+          "task_id": "86d2ymn5z",
+          "name": "[BE]",
+          "url": "https://app.clickup.com/t/86d2ymn5z",
           "status": "8.0 deployed",
           "points": 3,
           "is_completed": true
         },
         {
-          "task_id": "86d15435h",
-          "name": "[BE][PaperXB-KRW] Save beneficiary email bank account & send bankCode when create payment session",
-          "url": "https://app.clickup.com/t/86d15435h",
+          "task_id": "86d2xmu4j",
+          "name": "[Feature Flag] Add Internal Dashboard Toggle for Sales Receipt Date Locking Feature Flag",
+          "url": "https://app.clickup.com/t/86d2xmu4j",
+          "status": "8.0 deployed",
+          "points": 0,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d2x6n1k",
+          "name": "[Sales receipt] Add Backend Flag to Lock Sales Receipt Dates to Today Only (Prevent Backdating)",
+          "url": "https://app.clickup.com/t/86d2x6n1k",
           "status": "8.0 deployed",
           "points": 3,
           "is_completed": true
         },
         {
-          "task_id": "86d153z35",
-          "name": "[PaperXB][BE] Hongkong CNH -  Default Currency & Minum Amount for XB Enums",
-          "url": "https://app.clickup.com/t/86d153z35",
+          "task_id": "86d2ndqe4",
+          "name": "[Bug] [Document Labeling] Improve Error Message for Duplicate Label Category Name",
+          "url": "https://app.clickup.com/t/86d2ndqe4",
           "status": "8.0 deployed",
-          "points": 2,
+          "points": 0,
           "is_completed": true
         },
         {
-          "task_id": "86d153z2h",
-          "name": "[PaperXB][BE] Hongkong CNH - AA Non-Individual company user IWT do the transactions to my Supplier's Hongkong Bank Account",
-          "url": "https://app.clickup.com/t/86d153z2h",
+          "task_id": "86d2mb3ep",
+          "name": "[Promo] Create the Blacklist Company ID Feature in Promo Code Level",
+          "url": "https://app.clickup.com/t/86d2mb3ep",
           "status": "8.0 deployed",
-          "points": 1,
-          "is_completed": true
-        },
-        {
-          "task_id": "86d131urr",
-          "name": "[Foreign CC][BE] As paper internal user, I want to see incoming foreign CC registration requests from paper users",
-          "url": "https://app.clickup.com/t/86d131urr",
-          "status": "8.0 deployed",
-          "points": 3,
+          "points": 0,
           "is_completed": true
         }
       ],
       "carryover_in_tasks": [],
       "carryover_out_tasks": [],
-      "sprint_start_date": "1765209600000",
-      "sprint_end_date": "1766419199999",
+      "sprint_start_date": "1778432400000",
+      "sprint_end_date": "1779728399999",
       "daily_completion": {
-        "2025-12-08": 16,
-        "2025-12-09": 16,
-        "2025-12-10": 16,
-        "2025-12-11": 16,
-        "2025-12-12": 16,
-        "2025-12-13": 16,
-        "2025-12-14": 16,
-        "2025-12-15": 14,
-        "2025-12-16": 14,
-        "2025-12-17": 14,
-        "2025-12-18": 14,
-        "2025-12-19": 14,
-        "2025-12-20": 14,
-        "2025-12-21": 14
+        "2026-05-11": 14,
+        "2026-05-12": 14,
+        "2026-05-13": 12,
+        "2026-05-14": 12,
+        "2026-05-15": 12,
+        "2026-05-16": 12,
+        "2026-05-17": 12,
+        "2026-05-18": 12,
+        "2026-05-19": 12,
+        "2026-05-20": 12,
+        "2026-05-21": 12,
+        "2026-05-22": 12,
+        "2026-05-23": 12,
+        "2026-05-24": 12,
+        "2026-05-25": 12
       },
-      "sprint_reporting_url": "https://app.clickup.com/3708016/v/db/3h53g-278676"
+      "sprint_reporting_url": "https://app.clickup.com/3708016/v/db/3h53g-300876"
     },
     {
-      "sprint_number": 4,
-      "sprint_name": "Sprint 4 (RnG)",
-      "week": 48,
-      "list_id": "901612677684",
-      "url": "https://app.clickup.com/3708016/v/li/901612677684",
+      "sprint_number": 59,
+      "sprint_name": "Sprint 2.59 (25/5/26 - 8/6/26)",
+      "week": 11,
+      "list_id": "901615110772",
+      "url": "https://app.clickup.com/3708016/v/li/901615110772",
+      "total_tasks": 11,
+      "completed_tasks_count": 11,
+      "points_committed": 21,
+      "carryover_in": 0,
+      "points_delivered": 21,
+      "carryover_out": 0,
+      "total_work": 21,
+      "burndown": 0,
+      "delivery_rate": 100.0,
+      "all_tasks": [
+        {
+          "task_id": "86d38t3a3",
+          "name": "[Improvement] Enable Bank Validation Rate Limit to All Device",
+          "url": "https://app.clickup.com/t/86d38t3a3",
+          "status": "8.0 deployed",
+          "points": 1,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d36udug",
+          "name": "[Payment BE] Handle Paginated Response in Pivot Payout-Details Callback Ingestion",
+          "url": "https://app.clickup.com/t/86d36udug",
+          "status": "8.0 deployed",
+          "points": 3,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d33r6e1",
+          "name": "[paper-payment-backend]",
+          "url": "https://app.clickup.com/t/86d33r6e1",
+          "status": "8.0 deployed",
+          "points": 2,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d33r6c1",
+          "name": "[paper-document]",
+          "url": "https://app.clickup.com/t/86d33r6c1",
+          "status": "8.0 deployed",
+          "points": 2,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d33r5dz",
+          "name": "[BE] Add label on export csv/xlsx",
+          "url": "https://app.clickup.com/t/86d33r5dz",
+          "status": "8.0 deployed",
+          "points": 3,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d333y6u",
+          "name": "[Improvement] Payment - Add Timer for DigitalPaymentCallback",
+          "url": "https://app.clickup.com/t/86d333y6u",
+          "status": "8.0 deployed",
+          "points": 0,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d32t7dj",
+          "name": "[Backend] Handle Multiple Pivot Callbacks with Different Events",
+          "url": "https://app.clickup.com/t/86d32t7dj",
+          "status": "8.0 deployed",
+          "points": 3,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d2yn4ya",
+          "name": "[BE]",
+          "url": "https://app.clickup.com/t/86d2yn4ya",
+          "status": "8.0 deployed",
+          "points": 5,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d2tqcyn",
+          "name": "[Bug] BCA Static VA Closed Amount Payments Show as 0 Due to Decimal Formatting",
+          "url": "https://app.clickup.com/t/86d2tqcyn",
+          "status": "8.0 deployed",
+          "points": 2,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d2nbgqb",
+          "name": "[Document Labeling - Improvement] Add Label Column to Bulk Download Sales Invoice List Pop-Up View & Excel File (Web & Mobile)",
+          "url": "https://app.clickup.com/t/86d2nbgqb",
+          "status": "8.0 deployed",
+          "points": 0,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d2nb6vp",
+          "name": "[Document Labeling - Improvement] Add Field Labeling to Create & Edit Form Single Sales Invoice (Web & Mobile)",
+          "url": "https://app.clickup.com/t/86d2nb6vp",
+          "status": "8.0 deployed",
+          "points": 0,
+          "is_completed": true
+        }
+      ],
+      "completed_tasks": [
+        {
+          "task_id": "86d38t3a3",
+          "name": "[Improvement] Enable Bank Validation Rate Limit to All Device",
+          "url": "https://app.clickup.com/t/86d38t3a3",
+          "status": "8.0 deployed",
+          "points": 1,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d36udug",
+          "name": "[Payment BE] Handle Paginated Response in Pivot Payout-Details Callback Ingestion",
+          "url": "https://app.clickup.com/t/86d36udug",
+          "status": "8.0 deployed",
+          "points": 3,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d33r6e1",
+          "name": "[paper-payment-backend]",
+          "url": "https://app.clickup.com/t/86d33r6e1",
+          "status": "8.0 deployed",
+          "points": 2,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d33r6c1",
+          "name": "[paper-document]",
+          "url": "https://app.clickup.com/t/86d33r6c1",
+          "status": "8.0 deployed",
+          "points": 2,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d33r5dz",
+          "name": "[BE] Add label on export csv/xlsx",
+          "url": "https://app.clickup.com/t/86d33r5dz",
+          "status": "8.0 deployed",
+          "points": 3,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d333y6u",
+          "name": "[Improvement] Payment - Add Timer for DigitalPaymentCallback",
+          "url": "https://app.clickup.com/t/86d333y6u",
+          "status": "8.0 deployed",
+          "points": 0,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d32t7dj",
+          "name": "[Backend] Handle Multiple Pivot Callbacks with Different Events",
+          "url": "https://app.clickup.com/t/86d32t7dj",
+          "status": "8.0 deployed",
+          "points": 3,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d2yn4ya",
+          "name": "[BE]",
+          "url": "https://app.clickup.com/t/86d2yn4ya",
+          "status": "8.0 deployed",
+          "points": 5,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d2tqcyn",
+          "name": "[Bug] BCA Static VA Closed Amount Payments Show as 0 Due to Decimal Formatting",
+          "url": "https://app.clickup.com/t/86d2tqcyn",
+          "status": "8.0 deployed",
+          "points": 2,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d2nbgqb",
+          "name": "[Document Labeling - Improvement] Add Label Column to Bulk Download Sales Invoice List Pop-Up View & Excel File (Web & Mobile)",
+          "url": "https://app.clickup.com/t/86d2nbgqb",
+          "status": "8.0 deployed",
+          "points": 0,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d2nb6vp",
+          "name": "[Document Labeling - Improvement] Add Field Labeling to Create & Edit Form Single Sales Invoice (Web & Mobile)",
+          "url": "https://app.clickup.com/t/86d2nb6vp",
+          "status": "8.0 deployed",
+          "points": 0,
+          "is_completed": true
+        }
+      ],
+      "carryover_in_tasks": [],
+      "carryover_out_tasks": [],
+      "sprint_start_date": "1779724800000",
+      "sprint_end_date": "1780934399999",
+      "daily_completion": {
+        "2026-05-25": 21,
+        "2026-05-26": 21,
+        "2026-05-27": 21,
+        "2026-05-28": 21,
+        "2026-05-29": 21,
+        "2026-05-30": 21,
+        "2026-05-31": 21,
+        "2026-06-01": 21,
+        "2026-06-02": 21,
+        "2026-06-03": 21,
+        "2026-06-04": 21,
+        "2026-06-05": 21,
+        "2026-06-06": 21,
+        "2026-06-07": 21
+      },
+      "sprint_reporting_url": "https://app.clickup.com/3708016/v/db/3h53g-303516"
+    },
+    {
+      "sprint_number": 60,
+      "sprint_name": "Sprint 2.60 (8/6/26 - 22/6/26)",
+      "week": 12,
+      "list_id": "901615248893",
+      "url": "https://app.clickup.com/3708016/v/li/901615248893",
       "total_tasks": 6,
       "completed_tasks_count": 6,
-      "points_committed": 12,
+      "points_committed": 19,
       "carryover_in": 0,
-      "points_delivered": 12,
+      "points_delivered": 19,
       "carryover_out": 0,
-      "total_work": 12,
+      "total_work": 19,
       "burndown": 0,
       "delivery_rate": 100.0,
       "all_tasks": [
         {
-          "task_id": "86d1dh984",
-          "name": "[PaperXB] Opening new corridor batch Dec",
-          "url": "https://app.clickup.com/t/86d1dh984",
-          "status": "8.0 deployed",
-          "points": 2,
-          "is_completed": true
-        },
-        {
-          "task_id": "86d1bnnrv",
-          "name": "[BE] Intercon - Adjust Sales Invoice PDF downloaded",
-          "url": "https://app.clickup.com/t/86d1bnnrv",
+          "task_id": "86d393m8a",
+          "name": "[Improvement] Improve Idempotency Logic for Payment Gateway Fallback and Retries",
+          "url": "https://app.clickup.com/t/86d393m8a",
           "status": "8.0 deployed",
           "points": 3,
           "is_completed": true
         },
         {
-          "task_id": "86d1bmw78",
-          "name": "Payment - Publish auto disburse data to finops",
-          "url": "https://app.clickup.com/t/86d1bmw78",
-          "status": "8.0 deployed",
-          "points": 1,
-          "is_completed": true
-        },
-        {
-          "task_id": "86d19jkru",
-          "name": "[PaperXB] Add prefix to reference id when create pivot payout session",
-          "url": "https://app.clickup.com/t/86d19jkru",
-          "status": "8.0 deployed",
-          "points": 1,
-          "is_completed": true
-        },
-        {
-          "task_id": "86d180r43",
-          "name": "[PaperXB] Save Pivot Rate daily in table",
-          "url": "https://app.clickup.com/t/86d180r43",
-          "status": "8.0 deployed",
-          "points": 2,
-          "is_completed": true
-        },
-        {
-          "task_id": "86d17va1v",
-          "name": "[BE] AA Ops IWT be notified when there is a refund from Pivot",
-          "url": "https://app.clickup.com/t/86d17va1v",
+          "task_id": "86d38xrkr",
+          "name": "[BE] Add SoF to PID and DDT",
+          "url": "https://app.clickup.com/t/86d38xrkr",
           "status": "8.0 deployed",
           "points": 3,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d38xrhm",
+          "name": "[BE] PDF",
+          "url": "https://app.clickup.com/t/86d38xrhm",
+          "status": "8.0 deployed",
+          "points": 3,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d37ce0x",
+          "name": "[mrkrabs] Slack Bot \u2014 Routing Payment Method to PIVOT",
+          "url": "https://app.clickup.com/t/86d37ce0x",
+          "status": "8.0 deployed",
+          "points": 5,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d2r3pq9",
+          "name": "[Improvement] Payment -  Log all tokopedia trx every scheduler runs",
+          "url": "https://app.clickup.com/t/86d2r3pq9",
+          "status": "8.0 deployed",
+          "points": 5,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d2mb4vg",
+          "name": "[Payment] Adjust Mutation/Sender Name on Payment Pending Page & Payment Receipt Based on Disbursement SOF + Update Paper Logo",
+          "url": "https://app.clickup.com/t/86d2mb4vg",
+          "status": "8.0 deployed",
+          "points": 0,
           "is_completed": true
         }
       ],
       "completed_tasks": [
         {
-          "task_id": "86d1dh984",
-          "name": "[PaperXB] Opening new corridor batch Dec",
-          "url": "https://app.clickup.com/t/86d1dh984",
-          "status": "8.0 deployed",
-          "points": 2,
-          "is_completed": true
-        },
-        {
-          "task_id": "86d1bnnrv",
-          "name": "[BE] Intercon - Adjust Sales Invoice PDF downloaded",
-          "url": "https://app.clickup.com/t/86d1bnnrv",
+          "task_id": "86d393m8a",
+          "name": "[Improvement] Improve Idempotency Logic for Payment Gateway Fallback and Retries",
+          "url": "https://app.clickup.com/t/86d393m8a",
           "status": "8.0 deployed",
           "points": 3,
           "is_completed": true
         },
         {
-          "task_id": "86d1bmw78",
-          "name": "Payment - Publish auto disburse data to finops",
-          "url": "https://app.clickup.com/t/86d1bmw78",
-          "status": "8.0 deployed",
-          "points": 1,
-          "is_completed": true
-        },
-        {
-          "task_id": "86d19jkru",
-          "name": "[PaperXB] Add prefix to reference id when create pivot payout session",
-          "url": "https://app.clickup.com/t/86d19jkru",
-          "status": "8.0 deployed",
-          "points": 1,
-          "is_completed": true
-        },
-        {
-          "task_id": "86d180r43",
-          "name": "[PaperXB] Save Pivot Rate daily in table",
-          "url": "https://app.clickup.com/t/86d180r43",
-          "status": "8.0 deployed",
-          "points": 2,
-          "is_completed": true
-        },
-        {
-          "task_id": "86d17va1v",
-          "name": "[BE] AA Ops IWT be notified when there is a refund from Pivot",
-          "url": "https://app.clickup.com/t/86d17va1v",
+          "task_id": "86d38xrkr",
+          "name": "[BE] Add SoF to PID and DDT",
+          "url": "https://app.clickup.com/t/86d38xrkr",
           "status": "8.0 deployed",
           "points": 3,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d38xrhm",
+          "name": "[BE] PDF",
+          "url": "https://app.clickup.com/t/86d38xrhm",
+          "status": "8.0 deployed",
+          "points": 3,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d37ce0x",
+          "name": "[mrkrabs] Slack Bot \u2014 Routing Payment Method to PIVOT",
+          "url": "https://app.clickup.com/t/86d37ce0x",
+          "status": "8.0 deployed",
+          "points": 5,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d2r3pq9",
+          "name": "[Improvement] Payment -  Log all tokopedia trx every scheduler runs",
+          "url": "https://app.clickup.com/t/86d2r3pq9",
+          "status": "8.0 deployed",
+          "points": 5,
+          "is_completed": true
+        },
+        {
+          "task_id": "86d2mb4vg",
+          "name": "[Payment] Adjust Mutation/Sender Name on Payment Pending Page & Payment Receipt Based on Disbursement SOF + Update Paper Logo",
+          "url": "https://app.clickup.com/t/86d2mb4vg",
+          "status": "8.0 deployed",
+          "points": 0,
           "is_completed": true
         }
       ],
       "carryover_in_tasks": [],
       "carryover_out_tasks": [],
-      "sprint_start_date": "1766419200000",
-      "sprint_end_date": "1767628799999",
+      "sprint_start_date": "1780934400000",
+      "sprint_end_date": "1782143999999",
       "daily_completion": {
-        "2025-12-22": 12,
-        "2025-12-23": 12,
-        "2025-12-24": 12,
-        "2025-12-25": 12,
-        "2025-12-26": 12,
-        "2025-12-27": 12,
-        "2025-12-28": 12,
-        "2025-12-29": 11,
-        "2025-12-30": 11,
-        "2025-12-31": 11,
-        "2026-01-01": 11,
-        "2026-01-02": 11,
-        "2026-01-03": 11,
-        "2026-01-04": 11
+        "2026-06-08": 19,
+        "2026-06-09": 19,
+        "2026-06-10": 19,
+        "2026-06-11": 19,
+        "2026-06-12": 19,
+        "2026-06-13": 19,
+        "2026-06-14": 19,
+        "2026-06-15": 19,
+        "2026-06-16": 19,
+        "2026-06-17": 19,
+        "2026-06-18": 19,
+        "2026-06-19": 19,
+        "2026-06-20": 19,
+        "2026-06-21": 19
       },
-      "sprint_reporting_url": "https://app.clickup.com/3708016/v/db/3h53g-281456"
+      "sprint_reporting_url": "https://app.clickup.com/3708016/v/db/3h53g-304936"
     }
   ]
 }

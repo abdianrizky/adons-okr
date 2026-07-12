@@ -4,25 +4,42 @@ This repository contains tools and reports for tracking OKRs and sprint performa
 
 ## 📑 Quick Links to Key Reports
 
+- **[🎯 View OKR H1 2026 — abdian.rizki (RnG Squad 2)](./OKR-H1-2026.md)** ← NEW
 - **[📈 View Latest Sprint Summary Report](./sprint-analytics/output/sprint_summary.md)**
-- **[🔍 View SonarQube Code Analysis Report](./sonarqube-analytics/reports/README.md)**
-- **[⏱️ View MTTR Performance Report H2 2025](./MTTR/README.md)**
-- **[🎯 View Omniscient Summary Report (adon-paper, 2025-06-23 to 2026-01-01)](./Omniscient/reports/adon-paper/2025_06_23_to_2026_01_01/okr_report.md)**
+- **[🌐 Astronauts Dashboard (source of truth)](http://astronauts.paper.private)** — on-call, code health, deployments
+- ~~[🔍 SonarQube Analysis Report](./sonarqube-analytics/reports/README.md)~~ — digantikan astronauts
+- ~~[⏱️ MTTR Performance Report H2 2025](./MTTR/README.md)~~ — digantikan astronauts
+- ~~[🎯 Omniscient Report](./Omniscient/reports/adon-paper/2025_06_23_to_2026_01_01/okr_report.md)~~ — tidak digunakan H1 2026
+
+---
+
+## 🎯 OKR H1 2026 — abdian.rizki (RnG Squad 2)
+
+**[🎯 View Full OKR Report](./OKR-H1-2026.md)**
+
+| Key Result | Target | Actual | Status |
+|-----------|--------|--------|--------|
+| Sprint Velocity | ≥ 12 SP/sprint | 14.6 SP/sprint | ✅ |
+| SLA On-Call (MTTR) | ≥ 85% | 78% | ⚠️ |
+| Code Coverage (paper-payment-backend) | Trending up | +2.8pp (31.5→34.3%) | 🟡 |
+| Change Failure Rate | ≤ 15% | 18% | ❌ |
+
+> Source of truth: [astronauts.paper.private](http://astronauts.paper.private) + ClickUp REST API | Sprint range: 2.49–2.60
 
 ---
 
 ## 📊 Sprint Analytics
 
-Automated sprint metrics analysis and reporting for Paper.id engineering teams.
+Automated sprint metrics analysis and reporting for H1 2026 — RnG Squad 2.
 
 **[📈 View Latest Sprint Summary Report](./sprint-analytics/output/sprint_summary.md)**
 
 ### Quick Stats
 
-- **Teams Tracked**: SMB Payment Team & Revenue & Growth Team
-- **Total Sprints**: 12 sprints (Sprint 43-50 Payment, Sprint 1-4 RnG)
-- **Average Delivery Rate**: 95.9%
-- **Average Velocity**: 13.0 points/sprint
+- **Squad**: RnG Squad 2 — abdian.rizki
+- **Total Sprints**: 12 sprints (Sprint 2.49–2.60, H1 2026)
+- **Delivery Rate**: 100% (all sprints)
+- **Total SP Delivered**: 175 SP (avg 14.6/sprint)
 
 ### Available Reports & Charts
 

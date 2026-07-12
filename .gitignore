@@ -1,3 +1,10 @@
 */**/.DS_Store
 sprint-analytics/.env
 omniscient/.env
+*/**/node_modules
+*/**/dist
+*/**/build
+*/**/coverage
+*/**/.next
+*/**/.nuxt
+*/**/.cache

@@ -1,0 +1,34 @@
+CHANGE FAILURE RATE — COMPANY WIDE
+CFR TREND
+12 sprints · 16% avg CFR (108/662 fix/revert PRs)
+0%
+25%
+50%
+75%
+100%
+2.49
+2.50
+2.51
+2.52
+2.53
+2.54
+2.55
+2.56
+2.57
+2.58
+2.59
+2.60
+By Squad
+By Service
+BY SQUAD
+Squad	2.49	2.50	2.51	2.52	2.53	2.54	2.55	2.56	2.57	2.58	2.59	2.60	Merged PRs	Failed	CFR %
+DevOps	0%	—	—	—	0%	—	0%	0%	0%	0%	0%	0%	16	0	0%
+FS	0%	0%	0%	0%	0%	—	10%	0%	0%	0%	0%	0%	93	1	1%
+Network 1	33%	13%	20%	18%	13%	33%	33%	9%	20%	19%	0%	10%	143	25	17%
+Network 2	33%	13%	20%	18%	13%	33%	33%	9%	20%	19%	0%	10%	143	25	17%
+Network 3	33%	13%	20%	18%	13%	33%	33%	9%	20%	19%	0%	10%	143	25	17%
+PG	18%	17%	25%	28%	31%	0%	11%	25%	14%	25%	0%	0%	144	27	19%
+RnG Squad 1	23%	19%	17%	18%	25%	22%	11%	24%	14%	21%	17%	12%	758	140	18%
+RnG Squad 2	23%	19%	17%	18%	25%	22%	11%	24%	14%	21%	17%	12%	758	140	18%
+
+CFR = merged PRs typed FIX/REVERT ÷ all merged PRs (GitHub, staging/testing branches excluded). Each service's PRs count toward its primary BU only; squads in the same BU share the BU's rate. Green ≤5%, Amber ≤15%, Red >15%. Sprint range filter applies. Click squad name for full profile.

@@ -1,100 +1,77 @@
 # ClickUp Sprint Analytics Configuration
-# H2 2025 Sprints (Sprint 43-50) + Revenue & Growth (Sprint 1-6)
+# H1 2026 Sprints (RnG Squad 2 - Sprint 2.49 to 2.60)
 
-# ClickUp User ID (Adon)
+# ClickUp User ID (Abdian Rizky)
 user_id: "60603760"
 
 # ClickUp Workspace ID
 workspace_id: "3708016"
 
-# Sprint Definitions - SMB Payment Team (Sprint 43-50)
+# Sprint Definitions - H1 2026 RnG Squad 2 (2.49 - 2.60)
+# Source: "1. Revenue and Growth" folder (2.49-2.57) + "1.2 RNG Squad 2" folder (2.58-2.60)
 sprints:
-  - sprint_number: 43
-    name: "Sprint 43 (Payment)"
-    week: 36
-    list_id: "901609751709"
-    url: "https://app.clickup.com/3708016/v/li/901609751709"
-
-  - sprint_number: 44
-    name: "Sprint 44 (Payment)"
-    week: 37
-    list_id: "901610062693"
-    url: "https://app.clickup.com/3708016/v/li/901610062693"
-
-  - sprint_number: 45
-    name: "Sprint 45 (Payment)"
-    week: 38
-    list_id: "901610251697"
-    url: "https://app.clickup.com/3708016/v/li/901610251697"
-
-  - sprint_number: 46
-    name: "Sprint 46 (Payment)"
-    week: 39
-    list_id: "901610523078"
-    url: "https://app.clickup.com/3708016/v/li/901610523078"
-
-  - sprint_number: 47
-    name: "Sprint 47 (Payment)"
-    week: 40
-    list_id: "901610830843"
-    url: "https://app.clickup.com/3708016/v/li/901610830843"
-
-  - sprint_number: 48
-    name: "Sprint 48 (Payment)"
-    week: 41
-    list_id: "901611066339"
-    url: "https://app.clickup.com/3708016/v/li/901611066339"
-
   - sprint_number: 49
-    name: "Sprint 49 (Payment)"
-    week: 42
-    list_id: "901611303982"
-    url: "https://app.clickup.com/3708016/v/li/901611303982"
+    name: "Sprint 2.49 (5/1/26 - 19/1/26)"
+    week: 1
+    list_id: "901612829889"
 
   - sprint_number: 50
-    name: "Sprint 50 (Payment)"
-    week: 43
-    list_id: "901611529803"
-    url: "https://app.clickup.com/3708016/v/li/901611529803"
+    name: "Sprint 2.50 (19/1/26 - 2/2/26)"
+    week: 2
+    list_id: "901613100111"
 
-# Sprint Definitions - Revenue & Growth Team (Sprint 1-4)
-revenue_growth_sprints:
-  - sprint_number: 1
-    name: "Sprint 1 (RnG)"
-    week: 45
-    list_id: "901611807487"
-    team: "Revenue & Growth"
+  - sprint_number: 51
+    name: "Sprint 2.51 (2/2/26 - 18/2/26)"
+    week: 3
+    list_id: "901613324741"
 
-  - sprint_number: 2
-    name: "Sprint 2 (RnG)"
-    week: 46
-    list_id: "901612239615"
-    team: "Revenue & Growth"
+  - sprint_number: 52
+    name: "Sprint 2.52 (18/2/26 - 2/3/26)"
+    week: 4
+    list_id: "901613512736"
 
-  - sprint_number: 3
-    name: "Sprint 3 (RnG)"
-    week: 47
-    list_id: "901612467459"
-    team: "Revenue & Growth"
+  - sprint_number: 53
+    name: "Sprint 2.53 (2/3/26 - 16/3/26)"
+    week: 5
+    list_id: "901613810073"
 
-  - sprint_number: 4
-    name: "Sprint 4 (RnG)"
-    week: 48
-    list_id: "901612677684"
-    team: "Revenue & Growth"
+  - sprint_number: 54
+    name: "Sprint 2.54 (16/3/26 - 30/3/26)"
+    week: 6
+    list_id: "901614036928"
 
-  # Sprint 5 & 6 excluded
-  # - sprint_number: 5
-  #   name: "Sprint 5 2.49 (5/1/26 - 19/1/26)"
-  #   week: 49
-  #   list_id: "901612829889"
-  #   team: "Revenue & Growth"
+  - sprint_number: 55
+    name: "Sprint 2.55 (30/3/26 - 13/4/26)"
+    week: 7
+    list_id: "901614250380"
 
-  # - sprint_number: 6
-  #   name: "Sprint 6 2.50 (19/1/26 - 2/2/26)"
-  #   week: 50
-  #   list_id: "901613100111"
-  #   team: "Revenue & Growth"
+  - sprint_number: 56
+    name: "Sprint 2.56 (13/4/26 - 27/4/26)"
+    week: 8
+    list_id: "901614370317"
+
+  - sprint_number: 57
+    name: "Sprint 2.57 (27/4/26 - 11/5/26)"
+    week: 9
+    list_id: "901614676113"
+
+  - sprint_number: 58
+    name: "Sprint 2.58 (11/5/26 - 25/5/26)"
+    week: 10
+    list_id: "901614810029"
+
+  - sprint_number: 59
+    name: "Sprint 2.59 (25/5/26 - 8/6/26)"
+    week: 11
+    list_id: "901615110772"
+
+  - sprint_number: 60
+    name: "Sprint 2.60 (8/6/26 - 22/6/26)"
+    week: 12
+    list_id: "901615248893"
+
+# Old H2 2025 sprints (archived)
+revenue_growth_sprints: []
 
 # Completion status criteria
 completion_status:
