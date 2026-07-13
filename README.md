@@ -19,7 +19,7 @@ This repository contains tools and reports for tracking OKRs and sprint performa
 
 | Key Result | Target | Actual | Status |
 |-----------|--------|--------|--------|
-| Sprint Velocity | ≥ 12 SP/sprint | 14.6 SP/sprint | ✅ |
+| Sprint Velocity | ≥ 24 SP/sprint (baseline 16) | 14.6 SP/sprint avg | ❌ |
 | Deployment Success Rate | ≥ 90% | 81.42% avg (Jun: 85.5%) | ❌ |
 | Code Coverage (RnG BU, 15 services) | Trending up | 28.6% avg, peak 39% Mar, drop 9% Jun | ⚠️ |
 | SLA On-Call (MTTR) | ≥ 85% | 78% (76/97 issues) | ⚠️ |

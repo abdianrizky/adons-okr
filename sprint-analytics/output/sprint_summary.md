@@ -33,17 +33,17 @@
 
 ## Monthly Velocity Overview
 
-> Target: **12 SP/sprint** (24 SP/month ÷ 2 sprints) | H1 2026 Average: **~14.6 SP/sprint** ✅ Above target
+> Target: **24 SP/sprint** | Baseline: **16 SP/sprint** | H1 2026 Average: **~14.6 SP/sprint** ❌ Below target
 
-| Month | Sprints | Sprint SPs | Avg SP/Sprint | vs Target (12) | Notes |
-|-------|---------|-----------|--------------|----------------|-------|
-| January 2026 | 2.49 + 2.50 | 13 + 20 | **16.5 SP** | +4.5 | Strong start |
-| February 2026 | 2.51 + 2.52 | 18 + 10 | **14.0 SP** | +2.0 | Imlek holiday (-3 SP est.) |
-| March 2026 | 2.53 + 2.54 | 14 + 3 | **8.5 SP** | -3.5 | 🔴 Heavy holiday impact (7 hari kerja hilang) |
-| April 2026 | 2.55 + 2.56 | 12 + 17 | **14.5 SP** | +2.5 | Good Friday + recovery |
-| May 2026 | 2.57 + 2.58 | 14 + 14 | **14.0 SP** | +2.0 | Labor Day + Ascension Day |
-| June 2026 | 2.59 + 2.60 | 21 + 19 | **20.0 SP** | +8.0 | Strong finish |
-| **H1 Average** | **12 sprints** | **175 SP total** | **~14.6 SP/sprint** | **+2.6 avg** | **Above target** |
+| Month | Sprints | Sprint SPs | Avg SP/Sprint | vs Baseline (16) | vs Target (24) | Notes |
+|-------|---------|-----------|--------------|-----------------|----------------|-------|
+| January 2026 | 2.49 + 2.50 | 13 + 20 | **16.5 SP** | +0.5 ✅ | -7.5 🔴 | Strong start |
+| February 2026 | 2.51 + 2.52 | 18 + 10 | **14.0 SP** | -2.0 🔴 | -10.0 🔴 | Imlek holiday (-3 SP est.) |
+| March 2026 | 2.53 + 2.54 | 14 + 3 | **8.5 SP** | -7.5 🔴 | -15.5 🔴 | 🔴 Heavy holiday impact (7 hari kerja hilang) |
+| April 2026 | 2.55 + 2.56 | 12 + 17 | **14.5 SP** | -1.5 🔴 | -9.5 🔴 | Good Friday + recovery |
+| May 2026 | 2.57 + 2.58 | 14 + 14 | **14.0 SP** | -2.0 🔴 | -10.0 🔴 | Labor Day + Ascension Day |
+| June 2026 | 2.59 + 2.60 | 21 + 19 | **20.0 SP** | +4.0 ✅ | -4.0 🔴 | Strong finish |
+| **H1 Average** | **12 sprints** | **175 SP total** | **~14.6 SP/sprint** | **-1.4 avg** | **-9.4 avg** | **Below both** |
 
 ---
 
