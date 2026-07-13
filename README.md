@@ -8,7 +8,7 @@ This repository contains tools and reports for tracking OKRs and sprint performa
 - **[📈 View Latest Sprint Summary Report](./sprint-analytics/output/sprint_summary.md)**
 - **[🌐 Astronauts Dashboard (source of truth)](http://astronauts.paper.private)** — on-call, code health, deployments
 - ~~[🔍 SonarQube Analysis Report](./sonarqube-analytics/reports/README.md)~~ — digantikan astronauts
-- ~~[⏱️ MTTR Performance Report H2 2025](./MTTR/README.md)~~ — digantikan astronauts
+- ~~[⏱️ MTTR Performance Report H2 2025](./MTTR/README.md)~~ — digantikan astronauts | [📸 Proof H1 2026](./MTTR/proofs-h1-2026/Screenshot%202026-07-13%20at%2009.42.53.png)
 - ~~[🎯 Omniscient Report](./Omniscient/reports/adon-paper/2025_06_23_to_2026_01_01/okr_report.md)~~ — tidak digunakan H1 2026
 
 ---
@@ -201,19 +201,19 @@ Comprehensive performance tracking for bug/issue resolution metrics.
 
 ### Available Reports
 
-- **[Performance Report](./MTTR/README.md)** - Complete H2 2025 analysis with trends and recommendations
+- **[Performance Report H2 2025](./MTTR/README.md)** - Complete H2 2025 analysis
 - **[Raw Metrics CSV](./MTTR/mttr_metrics.csv)** - Weekly data for all 28 weeks
-- **[Live Dashboard](https://paperspark.paper.id/dashboard/3541-bug-issue-monitoring-dwh-ver)** - Real-time Metabase monitoring
+- **[📸 Proof H1 2026](./MTTR/proofs-h1-2026/Screenshot%202026-07-13%20at%2009.42.53.png)** - Tech SLA Compliance screenshot
+- **[📸 Proofs H2 2025](./MTTR/proofs-h2-2025/)** - H2 2025 dashboard screenshots
 
 ### Project Structure
 
 ```
 MTTR/
-├── README.md                # Performance report & analysis
+├── README.md                # Performance report & analysis (H2 2025)
 ├── mttr_metrics.csv         # Weekly metrics data
-└── proofs/                  # Dashboard screenshots
-    ├── mttr-1.png
-    └── mttr-2.png
+├── proofs-h1-2026/          # H1 2026 proof screenshots
+└── proofs-h2-2025/          # H2 2025 proof screenshots
 ```
 
 ## 🎯 Omniscient OKR Analytics
@@ -300,6 +300,8 @@ make help
 - [SonarQube Code Analysis Report](./sonarqube-analytics/reports/README.md)
 - [MTTR Performance Report H2 2025](./MTTR/README.md)
 - [MTTR Metrics CSV](./MTTR/mttr_metrics.csv)
+- [MTTR Proof H1 2026](./MTTR/proofs-h1-2026/Screenshot%202026-07-13%20at%2009.42.53.png)
+- [MTTR Proofs H2 2025](./MTTR/proofs-h2-2025/)
 - [Omniscient OKR Analytics](./Omniscient/README.md)
 - [Personal OKR Report (adon-paper, 2025-06-23 to 2026-01-01)](./Omniscient/reports/adon-paper/2025_06_23_to_2026_01_01/okr_report.md)
 - [ClickUp Workspace](https://app.clickup.com/3708016/)
