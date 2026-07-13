@@ -20,9 +20,9 @@ This repository contains tools and reports for tracking OKRs and sprint performa
 | Key Result | Target | Actual | Status |
 |-----------|--------|--------|--------|
 | Sprint Velocity | ≥ 12 SP/sprint | 14.6 SP/sprint | ✅ |
-| SLA On-Call (MTTR) | ≥ 85% | 78% | ⚠️ |
+| Deployment Success Rate | ≥ 90% | 81.42% avg (Jun: 85.5%) | ❌ |
 | Code Coverage (RnG BU, 15 services) | Trending up | 28.6% avg, peak 39% Mar, drop 9% Jun | ⚠️ |
-| Change Failure Rate | ≤ 15% | 18% | ❌ |
+| SLA On-Call (MTTR) | ≥ 85% | 78% (76/97 issues) | ⚠️ |
 
 > Source of truth: [astronauts.paper.private](http://astronauts.paper.private) + ClickUp REST API | Sprint range: 2.49–2.60
 
